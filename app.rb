@@ -14,13 +14,16 @@ configure do
   set :title, 'Vac Truck Movement Madness'
 
   Compass.add_project_configuration(File.join(settings.root, 'config', 'compass.rb'))
-
-  Compass.configuration do |config|
-    config.project_path = settings.root
-  end
+  Compass.configuration { |cfg| cfg.project_path = settings.root }
 
   set :slim, format: :html5
   set :sass, Compass.sass_engine_options
+end
+
+configure :production do
+  Compass.configuration do |config|
+    config.output_style = :compressed
+  end
 end
 
 configure :development do
@@ -28,10 +31,6 @@ configure :development do
   BetterErrors.application_root = settings.root
 
   set :slim, pretty: true
-end
-
-get '/' do
-  raise 'go to https://github.com/pokle/sinatra-bootstrap to get the boostrap'
 end
 
 get '/' do

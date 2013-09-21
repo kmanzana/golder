@@ -18,6 +18,7 @@ _yardoc
 doc/
 
 .DS_STORE
+.DS_Store
 *.swp
 *.sass-cache
 /Gemfile.lock

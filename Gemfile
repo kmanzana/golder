@@ -4,6 +4,7 @@ gem 'sinatra'
 gem 'slim'
 gem 'sass'
 gem 'compass'
+gem 'bootstrap-sass'
 
 group :development do
   gem 'better_errors'
