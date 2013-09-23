@@ -7,44 +7,48 @@
 # security: http://stackoverflow.com/questions/8144186/what-are-the-best-practices-to-secure-a-sinatra-application
 # padrino: http://www.padrinorb.com/
 
+ENV['RACK_ENV'] ||= 'development'
+
 require 'bundler/setup'
-Bundler.require(:default, :test, :development)
+Bundler.require :default, ENV['RACK_ENV'].to_sym
 
-configure do
-  set :root, Sinatra::Application.root
-  set :title, 'Vac Truck Movement Madness'
+require './app/helpers'
+require './app/routes/index'
 
-  Compass.add_project_configuration(File.join(settings.root, 'config', 'compass.rb'))
-  Compass.configuration { |cfg| cfg.project_path = settings.root }
+class GolderApp < Sinatra::Base
+  configure do
+    set :root, File.dirname(__FILE__)
+    set :title, 'Vac Truck Movement Madness'
 
-  set :slim, format: :html5
-  set :sass, Compass.sass_engine_options
-end
+    Compass.add_project_configuration(File.join(settings.root, 'config', 'compass.rb'))
+    Compass.configuration { |cfg| cfg.project_path = settings.root }
 
-configure :production do
-  Compass.configuration do |config|
-    config.output_style = :compressed
+    set :slim, format: :html5
+    set :sass, Compass.sass_engine_options
   end
+
+  configure :production do
+    Compass.configuration do |config|
+      config.output_style = :compressed
+    end
+  end
+
+  configure :development do
+    use BetterErrors::Middleware
+    BetterErrors.application_root = settings.root
+
+    set :slim, pretty: true
+  end
+
+  helpers Sinatra::GolderApp::Helpers
+
+  register Sinatra::GolderApp::Routing::Index
+
+  post '/uploads' do  
+    "Uploading file: #{params[:filename]}"
+  end 
+
+  not_found do  
+    halt 404, 'page not found' 
+  end 
 end
-
-configure :development do
-  use BetterErrors::Middleware
-  BetterErrors.application_root = settings.root
-
-  set :slim, pretty: true
-end
-
-get '/' do
-  slim :index,
-    locals: {
-      title: settings.title
-    }
-end
-
-post '/uploads' do  
-  "Uploading file: #{params[:filename]}"
-end 
-
-not_found do  
-  halt 404, 'page not found' 
-end 
