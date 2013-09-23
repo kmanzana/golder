@@ -1,4 +1,5 @@
 # recipes.sinatrarb.com
+# http://blog.carbonfive.com/2013/06/24/sinatra-best-practices-part-one/
 # http://sinatra-book.gittr.com/
 # http://www.sinatrarb.com/intro.html#Configuration
 # slim: http://rdoc.info/gems/slim
