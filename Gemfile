@@ -5,6 +5,7 @@ gem 'slim'
 gem 'sass'
 gem 'compass'
 gem 'bootstrap-sass'
+gem 'sinatra-flash'
 
 group :development do
   gem 'better_errors'

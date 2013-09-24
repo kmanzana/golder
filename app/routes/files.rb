@@ -5,13 +5,11 @@ module FileRoutes
         filename = params[:file][:filename]
         file = params[:file][:tempfile]
 
-        # File.open(File.join(settings.root, 'uploads', filename), 'wb') do |f|
-        #   f.write file.read
-        # end
+        # file.read
 
-        # flash 'Upload successful'
-      # else
-        # flash 'You have to choose a file'
+        flash[:success] = 'Upload successful'
+      else
+        flash[:warning] = 'You have to choose a file'
       end
 
       redirect '/'

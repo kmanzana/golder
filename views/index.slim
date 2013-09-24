@@ -1,19 +1,15 @@
-/ http://blueimp.github.io/jQuery-File-Upload/basic.html
-div.container
-  h1.site-title #{title}
+#box-left.col-md-5
+  h1.hero-header-text.large End the madness.
+  h4.hero-tagline Finish your vac truck movement data processing in seconds.
+  form action='/upload' method='post' enctype='multipart/form-data'
+    input.filestyle type="file" name="file"
 
-  #box-left.col-md-5
-    h1.hero-header-text.large End the madness.
-    h4.hero-tagline Finish your vac truck movement data processing in seconds.
-    form action='/upload' method='post' enctype='multipart/form-data'
-      input.filestyle type="file" name="file"
+    input.btn.btn-primary.main-upload type='submit' value='Upload'
+    span.help-block Upload your raw data file
 
-      input.btn.btn-primary.main-upload type='submit' value='Upload'
-      span.help-block Upload your raw data file
-
-    javascript:
-      $(":file").filestyle({
-        classButton: "btn btn-primary main-upload",
-        classInput: "form-control uploaded-file",
-        icon: false
-      });
+  javascript:
+    $(":file").filestyle({
+      classButton: "btn btn-primary main-upload",
+      classInput: "form-control uploaded-file",
+      icon: false
+    });

@@ -4,9 +4,26 @@ html
     title #{title}
 
     script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"
-    script(src='/javascripts/bootstrap-filestyle.js' type='text/javascript')
+    script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"
 
-    link(rel='stylesheet' href='stylesheets/application.css' media='screen' type='text/css')
+    script src='/javascripts/bootstrap-filestyle.js' type='text/javascript'
+
+    link rel='stylesheet' href='stylesheets/application.css' media='screen' type='text/css'
 
   body
-    ==yield
+    .container
+      h1.site-title #{title}
+
+      - if flash[:warning]
+        .alert.alert-warning.alert-dismissable
+          button.close aria-hidden="true" data-dismiss="alert" type="button" &times;
+          strong Oops!
+          |  #{flash[:warning]}
+
+
+      - if flash[:success]
+        .alert.alert-success #{flash[:success]} 
+      - if flash[:error]
+        .alert.alert-danger #{flash[:error]}
+      
+      ==yield
