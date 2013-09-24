@@ -2,7 +2,7 @@ ENV['RACK_ENV'] = 'test'
 
 require 'rspec'
 require 'rack/test'
-require_relative '../app'
+require_relative '../golder_app'
 
 RSpec.configure do |config|
   config.include Rack::Test::Methods

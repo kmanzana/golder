@@ -39,8 +39,7 @@ class GolderApp < Sinatra::Base
     set :slim, pretty: true
   end
 
-  include Sinatra::GolderApp
   helpers Helpers
-  register Routing::Views
-  register Routing::Files
+  register ViewRoutes
+  register FileRoutes
 end

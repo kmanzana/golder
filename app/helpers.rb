@@ -1,6 +1,2 @@
-module Sinatra
-  module GolderApp
-    module Helpers
-    end
-  end
+module Helpers
 end
