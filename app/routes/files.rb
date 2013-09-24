@@ -6,9 +6,6 @@ module Sinatra::GolderApp::Routing
           filename = params[:file][:filename]
           file = params[:file][:tempfile]
 
-          # puts settings.root
-          # raise settings.root
-
           File.open(File.join(settings.root, 'uploads', filename), 'wb') do |f|
             f.write file.read
           end
