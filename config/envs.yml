@@ -1,0 +1,12 @@
+---
+development:
+  sessions: true
+  session_secret: 'My session secret' # to fix shotgun reloading clearing session
+
+  slim:
+    :pretty: true
+
+test:
+
+production:
+  clean_trace: true

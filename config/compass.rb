@@ -15,6 +15,7 @@ javascripts_dir = 'assets/javascripts'
 cache_dir       = 'tmp/sass-cache'
 
 # You can select your preferred output style here (can be overridden via the command line):
+# output_style = :compressed # for production
 output_style = :expanded # or :nested or :compact or :compressed
 
 # To enable relative paths to assets via compass helper functions. Uncomment:
