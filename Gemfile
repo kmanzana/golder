@@ -6,6 +6,7 @@ gem 'sass'
 gem 'compass'
 gem 'bootstrap-sass'
 gem 'sinatra-flash'
+gem 'sinatra-contrib'
 
 group :development do
   gem 'better_errors'

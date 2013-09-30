@@ -1,39 +1,53 @@
 # recipes.sinatrarb.com
 # http://www.sinatrarb.com/intro.html#Configuration
 # security: http://stackoverflow.com/questions/8144186/what-are-the-best-practices-to-secure-a-sinatra-application
-# padrino: http://www.padrinorb.com/
 
-class GolderApp < Sinatra::Base
-  configure do
-    set :root, File.dirname(__FILE__)
-    set :title, 'Vac Truck Movement Madness'
+require 'bundler/setup'
+Bundler.require :default, ENV['RACK_ENV'].to_sym
 
-    Compass.add_project_configuration(File.join(settings.root, 'config', 'compass.rb'))
-    Compass.configuration { |cfg| cfg.project_path = settings.root }
+require 'sinatra/config_file'
+require 'sinatra/flash'
 
-    set :slim, format: :html5
-    set :sass, Compass.sass_engine_options
+require './app/helpers'
+require './app/routes/views'
+require './app/routes/files' # may need to load these instead of require http://sinatra.restafari.org/book.html#splitting_into_multiple_files
 
-    set :session_secret, 'My session secret' # to fix shotgun reloading clearing session
-    enable :sessions
-  end
+config_file 'config/golder_app.yml'
 
-  configure :production do
-    Compass.configuration do |config|
-      config.output_style = :compressed
-    end
-  end
+configure do
+  set :root, File.dirname(__FILE__)
 
-  configure :development do
-    use BetterErrors::Middleware
-    BetterErrors.application_root = settings.root
+  Compass.add_project_configuration(File.join(settings.root, 'config', 'compass.rb'))
+  Compass.configuration { |cfg| cfg.project_path = settings.root }
 
-    set :slim, pretty: true
-  end
+  set :slim, format: :html5
+  set :sass, Compass.sass_engine_options
 
-  register Sinatra::Flash
-
-  helpers Helpers
-  register ViewRoutes
-  register FileRoutes
+  set :session_secret, 'My session secret' # to fix shotgun reloading clearing session
+  enable :sessions
 end
+
+configure :production do
+  Compass.configuration do |config|
+    config.output_style = :compressed
+  end
+
+  set :slim, {ugly: true}
+  set :clean_trace, true
+  # set :css_files, :blob
+  # set :js_files,  :blob
+  # MinifyResources.minify_all
+end
+
+configure :development do
+  use BetterErrors::Middleware
+  BetterErrors.application_root = settings.root
+
+  set :slim, pretty: true
+end
+
+register Sinatra::Flash
+
+helpers Helpers
+register ViewRoutes
+# register FileRoutes

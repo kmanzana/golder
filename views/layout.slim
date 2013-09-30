@@ -27,3 +27,6 @@ html
         .alert.alert-danger #{flash[:error]}
       
       ==yield
+
+    - if settings.development?
+      | #{params}

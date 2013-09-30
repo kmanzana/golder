@@ -1,18 +1,14 @@
-module FileRoutes
-  def self.registered(app)
-    app.post '/upload' do
-      if params[:file]
-        filename = params[:file][:filename]
-        file = params[:file][:tempfile]
+post '/upload' do
+  if params[:file]
+    filename = params[:file][:filename]
+    file = params[:file][:tempfile]
 
-        # file.read
+    # file.read
 
-        flash[:success] = 'Upload successful'
-      else
-        flash[:warning] = 'You have to choose a file'
-      end
-
-      redirect '/'
-    end
+    flash[:success] = 'Upload successful'
+  else
+    flash[:warning] = 'You have to choose a file'
   end
+
+  redirect '/'
 end
