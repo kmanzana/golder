@@ -5,14 +5,14 @@ module ViewRoutes
   end
 
   @not_found = lambda do
-      halt 404, 'page not found' 
+    halt 404, 'page not found'
   end
 
   @index = lambda do
     # @title = settings.title
     slim :index,
-      locals: {
-        title: settings.title
-      }
+         locals: {
+           title: settings.title
+         }
   end
 end

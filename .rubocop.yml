@@ -1,0 +1,10 @@
+inherit_from: ../.rubocop.yml
+
+AllCops:
+  Includes:
+    - Rakefile
+    - config.ru
+  Excludes:
+    - db/**
+    - config/**
+    - script/**

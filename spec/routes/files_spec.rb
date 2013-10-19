@@ -1,3 +1,4 @@
+# rubocop:disable Void
 require 'spec_helper'
 
 describe 'Files Routes' do
@@ -7,7 +8,7 @@ describe 'Files Routes' do
         file: {
         filename: 'example.csv',
         tempfile: 'foo,bar,qux'
-      }}
+      } }
 
       last_response.status.should == 302
       last_response.should be_redirect

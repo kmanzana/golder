@@ -1,3 +1,4 @@
+# rubocop:disable Void
 require 'spec_helper'
 
 describe 'App' do

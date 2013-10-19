@@ -3,15 +3,17 @@ module FileRoutes
     app.post '/upload', &self.upload
 
     app.get '/download/:filename' do |filename|
-      send_file "./files/#{filename}", :filename => filename, :type => 'Application/octet-stream'
+      send_file "./files/#{filename}",
+                filename: filename,
+                type: 'Application/octet-stream'
     end
   end
 
   def self.upload
     lambda do
       if params[:file]
-        filename = params[:file][:filename]
-        file = params[:file][:tempfile]
+        # filename = params[:file][:filename]
+        # file = params[:file][:tempfile]
 
         # file.read
 
