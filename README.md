@@ -8,6 +8,10 @@ Start: `rackup`
 
 `rspec spec`
 
+## Running Rubocop
+
+`rubocop`
+
 ## Compass info
 
 Compile: `compass compile`

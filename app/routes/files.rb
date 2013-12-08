@@ -3,9 +3,14 @@ module FileRoutes
     app.post '/upload', &self.upload
 
     app.get '/download/:filename' do |filename|
-      send_file "./files/#{filename}",
-                filename: filename,
-                type: 'Application/octet-stream'
+      f = File.open("newfile",  "r")
+      # f.write("1234567890")     #=> 10
+      puts f.read
+
+      send_file f, filename: 'newfile.txt'
+
+      f.close
+      f.unlink
     end
   end
 

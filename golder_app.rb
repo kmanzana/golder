@@ -20,5 +20,15 @@ configure :development do
   BetterErrors.application_root = settings.root
 end
 
-register ViewRoutes
 register FileRoutes
+
+get '/' do
+  slim :index,
+       locals: {
+         title: settings.title
+       }
+end
+
+not_found do
+  halt 404, 'page not found'
+end

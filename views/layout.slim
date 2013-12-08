@@ -19,13 +19,11 @@ html
           button.close aria-hidden="true" data-dismiss="alert" type="button" &times;
           strong Oops!
           |  #{flash[:warning]}
-
-
       - if flash[:success]
-        .alert.alert-success #{flash[:success]} 
+        .alert.alert-success #{flash[:success]}
       - if flash[:error]
         .alert.alert-danger #{flash[:error]}
-      
+
       ==yield
 
     - if settings.development?
