@@ -7,7 +7,8 @@ Bundler.require :default, ENV['RACK_ENV'].to_sym
 
 require 'sinatra/flash'
 require './app/helpers'
-require './app/routes/init' # may need to load these instead of require http://sinatra.restafari.org/book.html#splitting_into_multiple_files # rubocop:disable LineLength
+require './app/bwon'
+# require './app/routes/init' # may need to load these instead of require http://sinatra.restafari.org/book.html#splitting_into_multiple_files # rubocop:disable LineLength
 
 configure do
   config_file 'config/all.yml'
@@ -20,13 +21,30 @@ configure :development do
   BetterErrors.application_root = settings.root
 end
 
-register FileRoutes
-
 get '/' do
   slim :index,
        locals: {
          title: settings.title
        }
+end
+
+post '/upload' do
+  if params[:file]
+    # filename = params[:file][:filename]
+    file = params[:file][:tempfile]
+
+    attachment 'bwon.csv'
+    content_type 'application/octet-stream'
+
+    BWON.produce_download_file(file)
+  else
+    flash[:warning] = 'You have to choose a file'
+    redirect '/'
+  end
+end
+
+get '/upload' do
+  redirect '/'
 end
 
 not_found do
