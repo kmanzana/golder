@@ -7,7 +7,7 @@ Bundler.require :default, ENV['RACK_ENV'].to_sym
 
 require 'sinatra/flash'
 require './app/helpers'
-require './app/bwon'
+require './app/bwon_output'
 # require './app/routes/init' # may need to load these instead of require http://sinatra.restafari.org/book.html#splitting_into_multiple_files # rubocop:disable LineLength
 
 configure do
@@ -36,7 +36,8 @@ post '/upload' do
     attachment 'bwon.csv'
     content_type 'application/octet-stream'
 
-    BWON.produce_download_file(file)
+    bwon = BWONOutput.new(file)
+    bwon.build
   else
     flash[:warning] = 'You have to choose a file'
     redirect '/'

@@ -1,15 +1,15 @@
 # rubocop:disable Void
 require 'spec_helper'
-require 'tempfile'
 
-describe 'files' do
+describe '' do
   describe 'post /upload' do
-    before do
-      BWON.stub(:new).and_return(BWON)
-    end
+    before { BWONOutput.stub(:build) }
+    after { tempfile.close; tempfile.unlink }
 
-    it 'should do stuff' do
-      post '/upload', file: { filename: 'example.csv', tempfile: 'foo' }
+    let(:tempfile) { Tempfile.new('foo') }
+
+    it 'should receive the file and start a download' do
+      post '/upload', file: { filename: 'example.csv', tempfile: tempfile.path }
       last_response.should be_ok
       last_response.content_type.should == 'application/octet-stream'
     end
