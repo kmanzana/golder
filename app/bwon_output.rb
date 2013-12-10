@@ -1,15 +1,37 @@
 require 'csv'
 
 class BWONOutput
+  INPUT_HEADERS =  [:vacuum_truck_company,
+                    :shift_report_date,
+                    :offload_date,
+                    :time,
+                    :truck_number,
+                    :unit,
+                    :source,
+                    :material,
+                    :volume_bbl,
+                    :rough_est_water,
+                    :to_unit_discharge_point,
+                    :driver_name,
+                    :ticket]
+
+  OUTPUT_HEADERS = [:date,
+                    :vacuum_truck_number,
+                    :unit,
+                    :vacuum_truck_movement_description,
+                    :vacuum_truck_material_description,
+                    :offload_sitewaste_destination, nil, nil, nil, nil,
+                    :total_waste_quantity_bbls, nil,
+                    :vac_truck_log_water_content]
+
   def initialize(raw_data_file)
     @raw_data_file = raw_data_file
   end
 
   def build
-    CSV.generate do |csv_output_row|
+    CSV.generate(headers: OUTPUT_HEADERS, write_headers: true) do |output_csv|
       each_raw_data_row do |raw_data_row|
-        csv_output_row << copy_data(raw_data_row)
-        # csv_output_row << lookup_data
+        output_csv << copy_data(raw_data_row)
       end
     end
   end
@@ -17,18 +39,24 @@ class BWONOutput
   private
 
   def each_raw_data_row
-    CSV.foreach(raw_data_file) do |row|
-      next unless row.first == 'PSC'
+    CSV.foreach(raw_data_file, headers: INPUT_HEADERS) do |row|
+      next unless row[:vacuum_truck_company] == 'PSC'
       yield row
     end
   end
 
-  def copy_data(row)
-    [row[1]]
+  def copy_data(input)
+    {
+      date: input[:shift_report_date],
+      vacuum_truck_number: input[:truck_number],
+      unit: input[:unit],
+      vacuum_truck_movement_description: input[:source],
+      vacuum_truck_material_description: input[:material],
+      offload_sitewaste_destination: input[:to_unit_discharge_point],
+      total_waste_quantity_bbls: input[:volume_bbl],
+      vac_truck_log_water_content: input[:rough_est_water]
+    }
   end
 
-  def lookup_data
-  end
-
-  attr_reader :raw_data_file
+  attr_reader :raw_data_file, :headers
 end
