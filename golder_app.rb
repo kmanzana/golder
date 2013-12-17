@@ -51,3 +51,7 @@ end
 not_found do
   halt 404, 'page not found'
 end
+
+error do
+  'Sorry there was a nasty error - ' + env['sinatra.error'].name
+end

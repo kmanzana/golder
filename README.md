@@ -2,14 +2,17 @@
 
 
 ### Client info
-Time invoicing in [wiki](https://github.com/kmanzana/golder/wiki)  
-Waffle.io progress [![waffle.io badge](https://badge.waffle.io/kmanzana/golder.png?label=ready)](https://waffle.io/kmanzana/golder)  
+Time invoicing in [wiki](https://github.com/kmanzana/golder/wiki)
+Waffle.io progress [![waffle.io badge](https://badge.waffle.io/kmanzana/golder.png?label=ready)](https://waffle.io/kmanzana/golder)
 Code quality       [![Code Climate](https://codeclimate.com/github/kmanzana/golder.png)](https://codeclimate.com/github/kmanzana/golder)
+
+Notes:
+- When saving Excel files as CSV files, use MS-DOS or regular Comma Separated Value file formats, not Macintosh
 
 #### The App
 
-Start with terminal logging: `rackup` and open [http://localhost:9292](http://localhost:9292)  
-Start with auto-restarting: `shotgun` and open [http://localhost:9393](http://localhost:9393)  
+Start with terminal logging: `rackup` and open [http://localhost:9292](http://localhost:9292)
+Start with auto-restarting: `shotgun` and open [http://localhost:9393](http://localhost:9393)
 
 #### Running specs
 

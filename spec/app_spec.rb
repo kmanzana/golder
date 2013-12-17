@@ -7,7 +7,7 @@ describe 'App' do
       get '/'
 
       last_response.should be_ok
-      last_response.body.should include('madness')
+      last_response.body.should include('Golder Contracting')
     end
   end
 

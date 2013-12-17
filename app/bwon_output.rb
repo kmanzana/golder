@@ -39,7 +39,12 @@ class BWONOutput
   private
 
   def each_raw_data_row
-    CSV.foreach(raw_data_file, headers: INPUT_HEADERS, encoding: 'windows-1251:utf-8') do |row|
+    CSV.foreach(raw_data_file, headers: INPUT_HEADERS) do |row|
+      next unless row[:vacuum_truck_company] == 'PSC'
+      yield row
+    end
+  rescue
+    CSV.foreach(raw_data_file, { headers: INPUT_HEADERS, encoding: 'windows-1251:utf-8' }) do |row|
       next unless row[:vacuum_truck_company] == 'PSC'
       yield row
     end
