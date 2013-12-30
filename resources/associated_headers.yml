@@ -1,0 +1,8 @@
+:date:                              :shift_report_date
+:vacuum_truck_number:               :truck_number
+:unit:                              :unit
+:vacuum_truck_movement_description: :source
+:vacuum_truck_material_description: :material
+:offload_sitewaste_destination:     :to_unit_discharge_point
+:total_waste_quantity_bbls:         :volume_bbl
+:vac_truck_log_water_content:       :rough_est_water

@@ -1,39 +1,11 @@
 require 'csv'
+require 'yaml'
 
 class BWONOutput
-  INPUT_HEADERS =  [:vacuum_truck_company,
-                    :shift_report_date,
-                    :offload_date,
-                    :time,
-                    :truck_number,
-                    :unit,
-                    :source,
-                    :material,
-                    :volume_bbl,
-                    :rough_est_water,
-                    :to_unit_discharge_point,
-                    :driver_name,
-                    :ticket]
-
-  OUTPUT_HEADERS = [:date,
-                    :vacuum_truck_number,
-                    :unit,
-                    :vacuum_truck_movement_description,
-                    :vacuum_truck_material_description,
-                    :offload_sitewaste_destination, nil, nil, nil, nil,
-                    :total_waste_quantity_bbls, nil,
-                    :vac_truck_log_water_content]
-
-  ASSOCIATED_HEADERS = {
-    date:                               :shift_report_date,
-    vacuum_truck_number:                :truck_number,
-    unit:                               :unit,
-    vacuum_truck_movement_description:  :source,
-    vacuum_truck_material_description:  :material,
-    offload_sitewaste_destination:      :to_unit_discharge_point,
-    total_waste_quantity_bbls:          :volume_bbl,
-    vac_truck_log_water_content:        :rough_est_water
-  }
+  INPUT_HEADERS = YAML.load_file('./resources/input_headers.yml')
+  OUTPUT_HEADERS = YAML.load_file('./resources/output_headers.yml')
+  ASSOCIATED_HEADERS = YAML.load_file('./resources/associated_headers.yml')
+  F_TO_H = YAML.load_file('./resources/f_to_h.yml')
 
   def initialize(raw_data_file)
     @raw_data_file = raw_data_file
@@ -50,7 +22,7 @@ class BWONOutput
   def build
     CSV.generate(headers: OUTPUT_HEADERS, write_headers: true) do |output_csv|
       each_raw_data_row do |raw_data_row|
-        output_csv << copy_data(raw_data_row)
+        output_csv << get_data(raw_data_row)
       end
     end
   end
@@ -64,6 +36,19 @@ class BWONOutput
       next unless row[:vacuum_truck_company] == 'PSC'
       yield row
     end
+  end
+
+  def get_data(input_data)
+    @current_hash = copy_data(input_data)
+    lookup_data!
+
+    @current_hash
+  end
+
+  def lookup_data!
+    @current_hash[:destination_benzene_control_description] = F_TO_H[
+      @current_hash[:offload_sitewaste_destination]
+    ]
   end
 
   def copy_data(input_data)
