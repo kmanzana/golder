@@ -24,7 +24,7 @@ class BWONOutput
                     :total_waste_quantity_bbls, nil,
                     :vac_truck_log_water_content]
 
-  ASSOCIATIVE_HASH = {
+  ASSOCIATED_HEADERS = {
     date:                               :shift_report_date,
     vacuum_truck_number:                :truck_number,
     unit:                               :unit,
@@ -66,11 +66,25 @@ class BWONOutput
     end
   end
 
-  def copy_data(input)
-    ASSOCIATIVE_HASH.each_with_object({}) do |key_value_pair, output|
-      key         = key_value_pair[0]
-      value       = key_value_pair[1]
-      output[key] = input[value]
+  def copy_data(input_data)
+    ASSOCIATED_HEADERS.each_with_object({}) do |header_pair, output_data|
+      output_header, input_header = header_pair
+      input_value = input_data[input_header]
+
+      output_data[output_header] = handle_division(input_value, input_header)
     end
+  end
+
+  def handle_division(value, header)
+    if header == :volume_bbl && value =~ /\//
+      divide(value)
+    else
+      value
+    end
+  end
+
+  def divide(value)
+    numbers = value.split('/').map { |i| i.to_f }
+    numbers[0] / numbers[1]
   end
 end
