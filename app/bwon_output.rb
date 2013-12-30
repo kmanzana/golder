@@ -24,6 +24,17 @@ class BWONOutput
                     :total_waste_quantity_bbls, nil,
                     :vac_truck_log_water_content]
 
+  ASSOCIATIVE_HASH = {
+    date:                               :shift_report_date,
+    vacuum_truck_number:                :truck_number,
+    unit:                               :unit,
+    vacuum_truck_movement_description:  :source,
+    vacuum_truck_material_description:  :material,
+    offload_sitewaste_destination:      :to_unit_discharge_point,
+    total_waste_quantity_bbls:          :volume_bbl,
+    vac_truck_log_water_content:        :rough_est_water
+  }
+
   def initialize(raw_data_file)
     @raw_data_file = raw_data_file
   end
@@ -38,6 +49,8 @@ class BWONOutput
 
   private
 
+  attr_reader :raw_data_file
+
   def each_raw_data_row
     CSV.foreach(raw_data_file, headers: INPUT_HEADERS) do |row|
       next unless row[:vacuum_truck_company] == 'PSC'
@@ -46,17 +59,10 @@ class BWONOutput
   end
 
   def copy_data(input)
-    {
-      date: input[:shift_report_date],
-      vacuum_truck_number: input[:truck_number],
-      unit: input[:unit],
-      vacuum_truck_movement_description: input[:source],
-      vacuum_truck_material_description: input[:material],
-      offload_sitewaste_destination: input[:to_unit_discharge_point],
-      total_waste_quantity_bbls: input[:volume_bbl],
-      vac_truck_log_water_content: input[:rough_est_water]
-    }
+    ASSOCIATIVE_HASH.each_with_object({}) do |key_value_pair, output|
+      key         = key_value_pair[0]
+      value       = key_value_pair[1]
+      output[key] = input[value]
+    end
   end
-
-  attr_reader :raw_data_file
 end

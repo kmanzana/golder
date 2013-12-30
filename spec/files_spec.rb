@@ -1,5 +1,7 @@
 require 'spec_helper'
 
+ROOT = 'http://example.org/'
+
 describe 'file operations' do
   describe 'post /upload' do
     let(:tempfile) { Tempfile.new('foo') }
@@ -20,14 +22,24 @@ describe 'file operations' do
     end
 
     context 'when no file is chosen' do
-      it 'should redirect to index' do
+      it 'should redirect to root' do
         post '/upload'
 
         last_response.status.should == 302 # rubocop:disable Void
         last_response.should be_redirect
         follow_redirect!
-        last_request.url.should == 'http://example.org/'
+        last_request.url.should == ROOT
       end
+    end
+  end
+
+  describe 'get /upload' do
+    it 'should redirect to root' do
+      get '/upload'
+
+      last_response.should be_redirect
+      follow_redirect!
+      last_request.url.should == ROOT
     end
   end
 end
