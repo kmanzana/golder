@@ -30,13 +30,13 @@ end
 
 post '/upload' do
   if params[:file]
-    # filename = params[:file][:filename]
+    filename = params[:file][:filename]
     file = params[:file][:tempfile]
 
-    attachment 'bwon.csv'
-    content_type 'application/octet-stream'
-
     bwon = BWONOutput.new(file)
+
+    content_type 'application/octet-stream'
+    attachment bwon.download_filename(filename)
     bwon.build
   else
     flash[:warning] = 'You have to choose a file'

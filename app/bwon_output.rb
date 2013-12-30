@@ -39,6 +39,14 @@ class BWONOutput
     @raw_data_file = raw_data_file
   end
 
+  def download_filename(upload_filename)
+    upload_first_word = upload_filename.split.first
+    download_first_word =
+      upload_first_word =~ /suncor/i ? 'Monthly' : upload_first_word.capitalize
+
+    "#{download_first_word} Suncor Vacuum Truck Movements.csv"
+  end
+
   def build
     CSV.generate(headers: OUTPUT_HEADERS, write_headers: true) do |output_csv|
       each_raw_data_row do |raw_data_row|

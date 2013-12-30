@@ -35,4 +35,26 @@ describe 'BWONOutput' do
       bwon_build_output.should == expected_bwon_build_output
     end
   end
+
+  describe '#download_filename' do
+    context 'if filename has a month' do
+      let(:upload_filename) { 'November Suncor Waste Tracking Log V2.csv' }
+      filename_month = 'November Suncor Vacuum Truck Movements.csv'
+      let(:filename_month) { filename_month }
+
+      it "should have the filename #{filename_month}" do
+        bwon.download_filename(upload_filename).should eq(filename_month)
+      end
+    end
+
+    context 'if filename does not have a month' do
+      let(:upload_filename) { 'Suncor Waste Tracking Log V2.csv' }
+      filename_no_month = 'Monthly Suncor Vacuum Truck Movements.csv'
+      let(:filename_no_month) { filename_no_month }
+
+      it "should have the filename #{filename_no_month}" do
+        bwon.download_filename(upload_filename).should eq(filename_no_month)
+      end
+    end
+  end
 end

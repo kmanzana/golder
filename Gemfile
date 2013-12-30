@@ -16,6 +16,19 @@ group :development do
 end
 
 group :test do
+  gem 'capybara'
+
+  gem 'rb-fsevent', require: false
+  gem 'growl'
+end
+
+group :development, :test do
   gem 'rspec'
   gem 'rack-test'
+
+  gem 'guard-rspec', require: false
+  gem 'guard-bundler'
+
+  gem 'guard-spork'
+  gem 'spork'
 end
