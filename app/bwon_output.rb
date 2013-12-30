@@ -43,11 +43,6 @@ class BWONOutput
       next unless row[:vacuum_truck_company] == 'PSC'
       yield row
     end
-  rescue
-    CSV.foreach(raw_data_file, { headers: INPUT_HEADERS, encoding: 'windows-1251:utf-8' }) do |row|
-      next unless row[:vacuum_truck_company] == 'PSC'
-      yield row
-    end
   end
 
   def copy_data(input)
@@ -63,5 +58,5 @@ class BWONOutput
     }
   end
 
-  attr_reader :raw_data_file, :headers
+  attr_reader :raw_data_file
 end
