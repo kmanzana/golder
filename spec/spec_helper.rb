@@ -8,6 +8,7 @@ require 'rack/test'
 Spork.prefork do
   require File.join(File.dirname(__FILE__), '..', 'golder_app.rb')
   require File.join(File.expand_path('.'), 'lib/tasks/rule_book_builder.rb')
+  require File.join(File.expand_path('.'), 'lib/csv_helper.rb')
 
   require 'sinatra'
   require 'rspec'

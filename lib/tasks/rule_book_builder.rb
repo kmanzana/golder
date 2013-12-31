@@ -2,9 +2,7 @@ require 'csv'
 require 'yaml'
 
 class RuleBookBuilder
-  ('A'..'Z').to_a.each_with_index do |letter, index|
-    eval("#{letter} = index")
-  end
+  include CSVHelper
 
   def initialize(input_filename, output_filename)
     @input_filename  = input_filename
@@ -21,8 +19,9 @@ class RuleBookBuilder
 
   def rule_book_hash
     each_row_with_object(input_filename, {}) do |row, rule_book|
-      next unless row.first =~ /\d+\/\d+\/\d+/
-      rule_book[row[C..F].join(',')] ||= row[H]
+      next unless is_data(row)
+
+      rule_book[lookup_key(row)] ||= row[H].strip
     end
   end
 
@@ -32,6 +31,10 @@ class RuleBookBuilder
     end
 
     object
+  end
+
+  def is_data(row)
+    row.first =~ /\d+\/\d+\/\d+/
   end
 
   attr_reader :input_filename, :output_filename

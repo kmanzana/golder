@@ -1,6 +1,6 @@
 ---
-three,four,five,six: '2'
-three,eight,five,six: '6'
-seven,four,four,two: '234'
-one,two,four,one: '12345'
-three,four,one,two: '2345'
+THREE;FOUR;FIVE;SIX: '2'
+THREE;EIGHT-EIGHT;FIVE;SIX: '6'
+SEVEN;FOUR;FOUR;TWO: '234'
+ONE;TWO;FOUR;ONE: '12345'
+THREE;FOUR;ONE;TWO: '2345'
