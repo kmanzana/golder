@@ -22,3 +22,5 @@ doc/
 *.swp
 *.sass-cache
 /Gemfile.lock
+
+.~lock.*
