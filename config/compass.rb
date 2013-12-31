@@ -8,9 +8,9 @@ http_images_path      = '/images'
 http_javascripts_path = '/javascripts'
 
 css_dir         = 'public/stylesheets'
-sass_dir        = 'stylesheets'
-images_dir      = 'assets/images'
-javascripts_dir = 'assets/javascripts'
+sass_dir        = 'app/assets/stylesheets'
+images_dir      = 'app/assets/images'
+javascripts_dir = 'app/assets/javascripts'
 
 cache_dir       = 'tmp/sass-cache'
 

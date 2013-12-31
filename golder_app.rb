@@ -14,6 +14,7 @@ configure do
   config_file 'config/all.yml'
   config_file 'config/envs.yml'
   set :root, File.dirname(__FILE__)
+  set :views, proc { File.join(settings.root, 'app/views') }
 end
 
 configure :development do

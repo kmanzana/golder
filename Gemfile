@@ -12,7 +12,9 @@ group :development do
   gem 'better_errors'
   # uncomment this for more advanced features:
   # gem 'binding_of_caller'
+
   gem 'shotgun'
+  gem 'rake'
 end
 
 group :test do

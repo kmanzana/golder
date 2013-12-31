@@ -2,10 +2,10 @@ require 'csv'
 require 'yaml'
 
 class BWONOutput
-  INPUT_HEADERS = YAML.load_file('./resources/input_headers.yml')
-  OUTPUT_HEADERS = YAML.load_file('./resources/output_headers.yml')
-  ASSOCIATED_HEADERS = YAML.load_file('./resources/associated_headers.yml')
-  F_TO_H = YAML.load_file('./resources/f_to_h.yml')
+  INPUT_HEADERS = YAML.load_file('./lib/resources/input_headers.yml')
+  OUTPUT_HEADERS = YAML.load_file('./lib/resources/output_headers.yml')
+  ASSOCIATED_HEADERS = YAML.load_file('./lib/resources/associated_headers.yml')
+  F_TO_H = YAML.load_file('./lib/resources/f_to_h.yml')
 
   def initialize(raw_data_file)
     @raw_data_file = raw_data_file
