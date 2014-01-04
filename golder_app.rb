@@ -7,7 +7,7 @@ Bundler.require :default, ENV['RACK_ENV'].to_sym
 
 require 'sinatra/flash'
 require './app/helpers'
-require './lib/csv_helper'
+require './lib/lookup_key_generator'
 require './app/bwon_output'
 # require './app/routes/init' # may need to load these instead of require http://sinatra.restafari.org/book.html#splitting_into_multiple_files # rubocop:disable LineLength
 

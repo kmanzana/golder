@@ -2,7 +2,7 @@ require 'csv'
 require 'yaml'
 
 class RuleBookBuilder
-  include CSVHelper
+  include LookupKeyGenerator
 
   def initialize(input_filename, output_filename)
     @input_filename  = input_filename
@@ -20,7 +20,6 @@ class RuleBookBuilder
   def rule_book_hash
     each_row_with_object(input_filename, {}) do |row, rule_book|
       next unless is_data(row)
-
       rule_book[lookup_key(row)] ||= row[H].strip
     end
   end
@@ -34,7 +33,7 @@ class RuleBookBuilder
   end
 
   def is_data(row)
-    row.first =~ /\d+\/\d+\/\d+/
+    row.first =~ %r{\d+\/\d+\/\d+}
   end
 
   attr_reader :input_filename, :output_filename

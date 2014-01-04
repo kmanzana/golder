@@ -2,9 +2,9 @@ require 'csv'
 require 'yaml'
 
 class BWONOutput
-  include CSVHelper
+  include LookupKeyGenerator
 
-  ASSOCIATIONS = YAML.load_file('./lib/resources/associated_headers.yml')
+  ASSOCIATIONS = YAML.load_file('./lib/resources/associations.yml')
   RULE_BOOK    = YAML.load_file('./lib/resources/bwon_rule_book.yml')
 
   def initialize(raw_data_file)
@@ -40,19 +40,19 @@ class BWONOutput
 
   def get_data(input_data)
     @current_row = copy_data(input_data)
-    lookup_data!
+    add_lookup_data!
 
     current_row
   end
 
-  def lookup_data!
+  def add_lookup_data!
     @current_row[H] = RULE_BOOK[lookup_key(current_row)]
   end
 
   def copy_data(input_data)
     ASSOCIATIONS.each_with_object([]) do |col_pair, output_data|
       output_col, input_col = col_pair.map { |e| self.class.const_get(e) }
-      input_value = get_rid_of_pesky_dashes(input_data[input_col])
+      input_value = input_data[input_col].gsub(DASH, HYPHEN)
 
       output_data[output_col] = handle_division(input_value, input_col)
     end

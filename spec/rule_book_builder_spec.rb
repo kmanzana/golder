@@ -1,14 +1,15 @@
+# rubocop:disable Void
 require 'spec_helper'
 
 describe 'RuleBookBuilder' do
-  let(:input_filename)  { './spec/support/unique_test.csv' }
-  let(:output_filename) { './spec/support/actual_unique_test.yml' }
-  let(:builder) { RuleBookBuilder.new(input_filename, output_filename) }
+  let(:in_filename)  { './spec/support/unique_test.csv' }
+  let(:out_filename) { './spec/support/actual_unique_test.yml' }
+  let(:builder) { RuleBookBuilder.new(in_filename, out_filename) }
 
   describe '#initialize' do
     it 'should have the correct instance variables' do
-      builder.instance_variable_get(:@input_filename).should == input_filename
-      builder.instance_variable_get(:@output_filename).should == output_filename
+      builder.instance_variable_get(:@input_filename).should == in_filename
+      builder.instance_variable_get(:@output_filename).should == out_filename
     end
   end
 
@@ -17,7 +18,7 @@ describe 'RuleBookBuilder' do
       File.open('./spec/support/expected_unique_test.yml').read
     end
 
-    let(:actual_output) { File.open(output_filename).read }
+    let(:actual_output) { File.open(out_filename).read }
 
     before do
       builder.build
