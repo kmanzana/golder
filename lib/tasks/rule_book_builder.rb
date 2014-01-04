@@ -20,7 +20,7 @@ class RuleBookBuilder
   def rule_book_hash
     each_row_with_object(input_filename, {}) do |row, rule_book|
       next unless is_data(row)
-      rule_book[lookup_key(row)] ||= row[H].strip
+      rule_book[lookup_key(row)] ||= row[G..H].map(&:strip)
     end
   end
 

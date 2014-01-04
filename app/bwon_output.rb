@@ -46,7 +46,8 @@ class BWONOutput
   end
 
   def add_lookup_data!
-    @current_row[H] = RULE_BOOK[lookup_key(current_row)]
+    @current_row[G] = RULE_BOOK[lookup_key(current_row)][0]
+    @current_row[H] = RULE_BOOK[lookup_key(current_row)][1]
   end
 
   def copy_data(input_data)
@@ -67,7 +68,7 @@ class BWONOutput
   end
 
   def divide(value)
-    numbers = value.split('/').map { |i| i.to_f }
+    numbers = value.split('/').map(&:to_f)
     numbers[0] / numbers[1]
   end
 end
