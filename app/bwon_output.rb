@@ -65,8 +65,7 @@ class BWONOutput
 
   def key_doesnt_exist?
     unless RULE_BOOK[lookup_key(current_row)]
-      @current_row[0] =
-        "ERROR! UNABLE TO LOOK UP DATA FOR KEY: #{lookup_key(current_row)}"
+      @current_row[0] = "ERROR! #{@current_row[0]}"
     end
   end
 
