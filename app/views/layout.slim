@@ -11,28 +11,36 @@ html
     link rel='stylesheet' href='stylesheets/application.css' media='screen' type='text/css'
 
   body
-    .main-header.navbar
-      .container
-        a.navbar-brand href='/' #{title}
+    #wrap
+      .main-header.navbar
+        .container
+          a.navbar-brand href='/' #{title}
 
-    #hero
-      .container
+      #hero
+        .container
 
-        - if flash[:warning]
-          .alert.alert-warning.alert-dismissable
-            button.close aria-hidden='true' data-dismiss='alert' type='button' &times;
-            strong Oops!
-            |  #{flash[:warning]}
-        - if flash[:success]
-          .alert.alert-success #{flash[:success]}
-        - if flash[:error]
-          .alert.alert-danger #{flash[:error]}
+          - if flash[:warning]
+            .alert.alert-warning.alert-dismissable
+              button.close aria-hidden='true' data-dismiss='alert' type='button' &times;
+              strong Oops!
+              |  #{flash[:warning]}
+          - if flash[:success]
+            .alert.alert-success #{flash[:success]}
+          - if flash[:error]
+            .alert.alert-danger #{flash[:error]}
 
-        ==yield
+          ==yield
 
-    #client-info.container
-      img.pull-left src='/images/golder.png'
-      img.pull-right src='/images/se_mb_sig_3c_pos.png'
+      #push
+
+    #footer.row
+      .col-md-2
+        img src='/images/golder.png'
+
+      p.col-md-8 Golder Associates Inc. - Kelton Manzanares
+
+      .col-md-2
+        img src='/images/se_mb_sig_3c_pos.png'
 
     / # - if settings.development?
     /  | #{params}

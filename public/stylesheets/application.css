@@ -7488,12 +7488,42 @@ td.visible-print {
  * <!--[if IE]>
  *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
  * <![endif]--> */
-/* line 1, ../../app/assets/stylesheets/partials/_index.sass */
+/* line 3, ../../app/assets/stylesheets/partials/_index.sass */
+html,
+body {
+  height: 100%;
+}
+
+/* line 7, ../../app/assets/stylesheets/partials/_index.sass */
 body {
   background-color: #efece0;
 }
 
-/* line 4, ../../app/assets/stylesheets/partials/_index.sass */
+/* line 10, ../../app/assets/stylesheets/partials/_index.sass */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -50px;
+}
+
+/* line 16, ../../app/assets/stylesheets/partials/_index.sass */
+#push,
+#footer {
+  height: 50px;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+  /* line 22, ../../app/assets/stylesheets/partials/_index.sass */
+  #footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+/* line 28, ../../app/assets/stylesheets/partials/_index.sass */
 .main-header {
   color: white;
   background-color: #efece0;
@@ -7502,14 +7532,14 @@ body {
   margin-bottom: 0;
   height: 52px;
 }
-/* line 12, ../../app/assets/stylesheets/partials/_index.sass */
+/* line 36, ../../app/assets/stylesheets/partials/_index.sass */
 .main-header .navbar-brand {
   color: #008164;
   font-weight: 600;
   font-size: x-large;
 }
 
-/* line 17, ../../app/assets/stylesheets/partials/_index.sass */
+/* line 41, ../../app/assets/stylesheets/partials/_index.sass */
 #hero {
   background: url("../images/suncor_background_1.jpg") 50% 0 no-repeat fixed;
   background-size: contain;
@@ -7517,38 +7547,44 @@ body {
   height: 436px;
   position: relative;
 }
-/* line 24, ../../app/assets/stylesheets/partials/_index.sass */
+/* line 48, ../../app/assets/stylesheets/partials/_index.sass */
 #hero #box-left {
   border-radius: 2em;
   background-color: #e3dcc5;
   margin-top: 3%;
 }
-/* line 29, ../../app/assets/stylesheets/partials/_index.sass */
+/* line 53, ../../app/assets/stylesheets/partials/_index.sass */
 #hero #box-left .main-upload {
   margin-left: 15px;
 }
-/* line 32, ../../app/assets/stylesheets/partials/_index.sass */
+/* line 56, ../../app/assets/stylesheets/partials/_index.sass */
 #hero #box-right {
   color: white;
   margin-top: 2%;
   margin-left: 7%;
 }
-/* line 37, ../../app/assets/stylesheets/partials/_index.sass */
+/* line 61, ../../app/assets/stylesheets/partials/_index.sass */
 #hero #box-right ul, #hero #box-right li {
   font-size: large;
   margin-bottom: 5px;
 }
-/* line 41, ../../app/assets/stylesheets/partials/_index.sass */
+/* line 65, ../../app/assets/stylesheets/partials/_index.sass */
 #hero #box-right ul a, #hero #box-right ul a:hover, #hero #box-right ul a:active, #hero #box-right li a, #hero #box-right li a:hover, #hero #box-right li a:active {
   color: white;
 }
 
-/* line 44, ../../app/assets/stylesheets/partials/_index.sass */
-#client-info {
+/* line 68, ../../app/assets/stylesheets/partials/_index.sass */
+#footer {
   background-color: #efece0;
 }
-/* line 47, ../../app/assets/stylesheets/partials/_index.sass */
-#client-info img {
-  height: 100px;
-  margin: 30px;
+/* line 71, ../../app/assets/stylesheets/partials/_index.sass */
+#footer p {
+  line-height: 80px;
+  vertical-align: bottom;
+  text-align: center;
+}
+/* line 76, ../../app/assets/stylesheets/partials/_index.sass */
+#footer img {
+  height: 50px;
+  padding: 0 30px 5px 30px;
 }
