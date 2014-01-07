@@ -2,16 +2,20 @@
 require 'spec_helper'
 
 describe 'RuleBookBuilder' do
-  let(:in_filename)  { './spec/support/unique_test.csv' }
   let(:out_filename) { './spec/support/actual_unique_test.yml' }
+
+  let(:in_filenames) do
+    ['./spec/support/unique_test.csv', './spec/support/unique_test_2.csv']
+  end
+
   let(:builder) do
-    RuleBookBuilder.new(input_filename: in_filename,
+    RuleBookBuilder.new(input_filenames: in_filenames,
                         output_filename: out_filename)
   end
 
   describe '#initialize' do
     it 'should have the correct instance variables' do
-      builder.instance_variable_get(:@input_filename).should == in_filename
+      builder.instance_variable_get(:@input_filenames).should == in_filenames
       builder.instance_variable_get(:@output_filename).should == out_filename
     end
   end
@@ -23,9 +27,7 @@ describe 'RuleBookBuilder' do
 
     let(:actual_output) { File.open(out_filename).read }
 
-    before do
-      builder.build
-    end
+    before { builder.build }
 
     it 'produce the rule book correctly' do
       actual_output.should == expected_output

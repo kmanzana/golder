@@ -3,8 +3,9 @@ task default: [:build_rule_book]
 task :build_rule_book do
   require './lib/lookup_key_generator'
   require './lib/tasks/rule_book_builder'
+
   RuleBookBuilder.new(
-    input_filename: './lib/resources/3Q13 BWON CD Report Final.csv',
+    input_filenames: Dir.glob('./lib/resources/reference_files/*\.csv'),
     output_filename: './lib/resources/bwon_rule_book.yml')
   .build
 
