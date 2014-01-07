@@ -1,15 +1,28 @@
-#box-left.col-md-5
-  h1.hero-header-text.large No more Excel,
-  h4.hero-tagline Data processing in seconds.
-  form action='/upload' method='post' enctype='multipart/form-data'
-    input.filestyle type="file" name="file"
+#hero-section.row
+  #box-left.col-md-5
+    h1.hero-header-text.large No more Excel,
+    h4.hero-tagline Data processing in seconds.
+    form action='/upload' method='post' enctype='multipart/form-data'
+      input.filestyle type='file' name='file'
 
-    input.btn.btn-primary.main-upload type='submit' value='Upload'
-    span.help-block Upload your raw data file
+      input.btn.btn-primary.main-upload type='submit' value='Upload'
+      span.help-block Upload your raw data file
 
-  javascript:
-    $(":file").filestyle({
-      classButton: "btn btn-primary main-upload",
-      classInput: "form-control uploaded-file",
-      icon: false
-    });
+    javascript:
+      $(':file').filestyle({
+        classButton: 'btn btn-primary main-choose-file',
+        classInput: 'form-control uploaded-file',
+        icon: false
+      });
+
+  #box-right.col-md-6
+    h2 Steps to process your vac truck data:
+    ul
+      li Save your raw data Excel file in .csv format (MS-DOS)
+      li Select your raw data file by clicking the "Choose file" button
+      li Click the "Upload" button once you have chosen the correct file
+      li You should promptly receive a file download with the processed vac truck data in .csv format
+      li
+        | If you experience any issues or have any ideas for improvements, contact Kelton Manzanares at#{' '}
+        a[href="mailto:keltonmanzanares@gmail.com"]keltonmanzanares@gmail.com
+

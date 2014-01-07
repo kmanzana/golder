@@ -1,12 +1,49 @@
 body
-  background-color: $background-brown
+  background-color: $lighter-brown
 
-h1.site-title
-  text-align: center
+.main-header
+  color: white
+  background-color: $lighter-brown
+  position: relative
+  border-radius: 0
+  margin-bottom: 0
+  height: 52px
 
-.container 
+  .navbar-brand
+    color: $main-green
+    font-weight: 600
+    font-size: x-large
+
+#hero
+  background: url('../images/suncor_background_1.jpg') 50% 0 no-repeat fixed
+  background-size: contain
+  width: 100%
+  height: 436px
+  position: relative
 
   #box-left
     border-radius: 2em
-    background-color: $lighter-brown
+    background-color: $darker-brown
     margin-top: 3%
+
+    .main-upload
+      margin-left: 15px
+
+  #box-right
+    color: white
+    margin-top: 2%
+    margin-left: 7%
+
+    ul, li
+      font-size: large
+      margin-bottom: 5px
+
+      a, a:hover, a:active
+        color: white
+
+#client-info
+  background-color: $lighter-brown
+
+  img
+    height: 150px
+    margin: 30px

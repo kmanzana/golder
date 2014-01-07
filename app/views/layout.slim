@@ -3,28 +3,36 @@ html
   head
     title #{title}
 
-    script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"
-    script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"
+    script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'
+    script src='//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js'
 
     script src='/javascripts/bootstrap-filestyle.js' type='text/javascript'
 
     link rel='stylesheet' href='stylesheets/application.css' media='screen' type='text/css'
 
   body
-    .container
-      h1.site-title #{title}
+    .main-header.navbar
+      .container
+        a.navbar-brand href='/' BWON Data Crunching
 
-      - if flash[:warning]
-        .alert.alert-warning.alert-dismissable
-          button.close aria-hidden="true" data-dismiss="alert" type="button" &times;
-          strong Oops!
-          |  #{flash[:warning]}
-      - if flash[:success]
-        .alert.alert-success #{flash[:success]}
-      - if flash[:error]
-        .alert.alert-danger #{flash[:error]}
+    #hero
+      .container
 
-      ==yield
+        - if flash[:warning]
+          .alert.alert-warning.alert-dismissable
+            button.close aria-hidden='true' data-dismiss='alert' type='button' &times;
+            strong Oops!
+            |  #{flash[:warning]}
+        - if flash[:success]
+          .alert.alert-success #{flash[:success]}
+        - if flash[:error]
+          .alert.alert-danger #{flash[:error]}
 
-    - if settings.development?
-      | #{params}
+        ==yield
+
+    #client-info.container
+      img.pull-left src='/images/golder.png'
+      img.pull-right src='/images/se_mb_sig_3c_pos.png'
+
+    / # - if settings.development?
+    /  | #{params}
