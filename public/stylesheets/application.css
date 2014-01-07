@@ -7576,14 +7576,15 @@ body {
 /* line 68, ../../app/assets/stylesheets/partials/_index.sass */
 #footer {
   background-color: #efece0;
+  overflow-y: hidden;
 }
-/* line 71, ../../app/assets/stylesheets/partials/_index.sass */
+/* line 72, ../../app/assets/stylesheets/partials/_index.sass */
 #footer p {
   line-height: 80px;
   vertical-align: bottom;
   text-align: center;
 }
-/* line 76, ../../app/assets/stylesheets/partials/_index.sass */
+/* line 77, ../../app/assets/stylesheets/partials/_index.sass */
 #footer img {
   height: 50px;
   padding: 0 30px 5px 30px;
