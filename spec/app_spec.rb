@@ -7,7 +7,7 @@ describe 'App' do
 
       last_response.should be_ok
       last_response.status.should == 200 # rubocop:disable Void
-      last_response.body.should include('Golder Contracting')
+      last_response.body.should include(app.title)
     end
   end
 
