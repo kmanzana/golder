@@ -35,6 +35,7 @@ class BWONOutput
   def each_raw_data_row
     CSV.foreach(raw_data_file) do |row|
       next unless row[A] == 'PSC'
+      next if row[B..M].index(nil)
       yield row
     end
   end
@@ -48,6 +49,7 @@ class BWONOutput
 
   def add_lookup_data!
     LOOKUP_COLUMNS.each do |col|
+      break if key_doesnt_exist?
       @current_row[col] = RULE_BOOK[lookup_key(current_row)][col]
     end
   end
@@ -58,6 +60,13 @@ class BWONOutput
       input_value = input_data[input_col].gsub(DASH, HYPHEN)
 
       output_data[output_col] = handle_division(input_value, input_col)
+    end
+  end
+
+  def key_doesnt_exist?
+    unless RULE_BOOK[lookup_key(current_row)]
+      @current_row[0] =
+        "ERROR! UNABLE TO LOOK UP DATA FOR KEY: #{lookup_key(current_row)}"
     end
   end
 
