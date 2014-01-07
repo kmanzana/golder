@@ -4,7 +4,7 @@ require 'yaml'
 class RuleBookBuilder
   include LookupKeyGenerator
 
-  def initialize(input_filename, output_filename)
+  def initialize(input_filename: nil, output_filename: nil)
     @input_filename  = input_filename
     @output_filename = output_filename
   end
@@ -20,7 +20,7 @@ class RuleBookBuilder
   def rule_book_hash
     each_row_with_object(input_filename, {}) do |row, rule_book|
       next unless is_data(row)
-      rule_book[lookup_key(row)] ||= row[G..H].map(&:strip)
+      rule_book[lookup_key(row)] ||= extract_relevant_data(row)
     end
   end
 
@@ -34,6 +34,13 @@ class RuleBookBuilder
 
   def is_data(row)
     row.first =~ %r{\d+\/\d+\/\d+}
+  end
+
+  def extract_relevant_data(row)
+    row[G..Y]
+    .map(&:to_s)
+    .map(&:strip)
+    .unshift(*([nil] * 6))
   end
 
   attr_reader :input_filename, :output_filename

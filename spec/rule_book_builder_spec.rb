@@ -4,7 +4,10 @@ require 'spec_helper'
 describe 'RuleBookBuilder' do
   let(:in_filename)  { './spec/support/unique_test.csv' }
   let(:out_filename) { './spec/support/actual_unique_test.yml' }
-  let(:builder) { RuleBookBuilder.new(in_filename, out_filename) }
+  let(:builder) do
+    RuleBookBuilder.new(input_filename: in_filename,
+                        output_filename: out_filename)
+  end
 
   describe '#initialize' do
     it 'should have the correct instance variables' do

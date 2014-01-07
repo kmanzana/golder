@@ -1,7 +1,7 @@
-a,b,c,d,e,f,g,h
-07/01/2013,two,three,four,five,six,yes,2,3,4
-08/01/2013,two,three,eight–eight,five,six,no,6,7,8
-07/01/2013,two,three,four,five,six,yes,2,3,4
-10/01/2013,two, sev en,four,four,two,no,234,5,345
-07/02/2013,four,one,two,four,one,no,12345,2345,234
-07/01/2012,two,three,four,one,two,no,2345,3,2
+a,b,c,d,e,f,g,h,,,,,,,,,,,,,,,,,
+07/01/2013,two,three,four,five,six,yes,2,3,4,,,,99.0%,,,T-101 Underground Storage Tank Aqueous,YES,,,,,,T-101 Underground Storage Tank Oil,NO
+08/01/2013,two,three,eight–eight,five,six,no,6,7,8,,,,99.0%,,,All Groundwater,YES,,,,,,Remediation Oil,YES
+07/01/2013,two,three,four,five,six,yes,2,3,4,,,,10.0%,,,All Groundwater,YES,,,,,,Remediation Oil,YES
+10/01/2013,two, sev en,four,four,two,no,234,5,345,,,,10.0%,,,All Groundwater,YES,,,,,,Remediation Oil,YES
+07/02/2013,four,one,two,four,one,no,12345,2345,234,,,,99.0%,,,T-101 Underground Storage Tank Aqueous,YES,,,,,,T-101 Underground Storage Tank Oil,NO
+07/01/2012,two,three,four,one,two,no,2345,3,2,,,,99.0%,,,All Groundwater,YES,,,,,,Remediation Oil,YES

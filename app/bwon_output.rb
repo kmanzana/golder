@@ -6,6 +6,7 @@ class BWONOutput
 
   ASSOCIATIONS = YAML.load_file('./lib/resources/associations.yml')
   RULE_BOOK    = YAML.load_file('./lib/resources/bwon_rule_book.yml')
+  LOOKUP_COLUMNS = [G, H, N, Q, R, X, Y]
 
   def initialize(raw_data_file)
     @raw_data_file = raw_data_file
@@ -46,8 +47,9 @@ class BWONOutput
   end
 
   def add_lookup_data!
-    @current_row[G] = RULE_BOOK[lookup_key(current_row)][0]
-    @current_row[H] = RULE_BOOK[lookup_key(current_row)][1]
+    LOOKUP_COLUMNS.each do |col|
+      @current_row[col] = RULE_BOOK[lookup_key(current_row)][col]
+    end
   end
 
   def copy_data(input_data)
