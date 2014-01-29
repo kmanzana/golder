@@ -48,4 +48,14 @@ describe 'BWONOutput' do
       end
     end
   end
+
+  describe 'private methods, delete if these fail later' do
+    describe '#calculate_u_percentage' do
+      it 'should use the equation to find a percentage value' do
+        bwon.send(:calculate_u_percentage, '90%').should eq '10%'
+        bwon.send(:calculate_u_percentage, '95.5%').should eq '5%'
+        bwon.send(:calculate_u_percentage, '99%').should eq '1%'
+      end
+    end
+  end
 end

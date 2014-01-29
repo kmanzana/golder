@@ -61,6 +61,7 @@ class BWONOutput
     both_are_no = @current_row[G] == 'NO' && @current_row[I] == 'NO'
 
     @current_row[J] = both_are_no ? 'YES' : 'NO'
+    @current_row[U] = calculate_u_percentage(@current_row[N])
   end
 
   def add_copied_calculated_data!
@@ -80,6 +81,10 @@ class BWONOutput
     unless RULE_BOOK[lookup_key(current_row)]
       @current_row[0] = "ERROR! #{@current_row[0]}"
     end
+  end
+
+  def calculate_u_percentage(value)
+    "#{(100 - value.to_f).round}%"
   end
 
   def handle_division(value, column)
