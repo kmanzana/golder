@@ -42,16 +42,24 @@ class BWONOutput
 
   def get_data(input_data)
     @current_row = copy_data(input_data)
-    add_lookup_data!
+
+    add_data! unless key_doesnt_exist?
 
     current_row
   end
 
-  def add_lookup_data!
+  def add_data!
     LOOKUP_COLUMNS.each do |col|
-      break if key_doesnt_exist?
       @current_row[col] = RULE_BOOK[lookup_key(current_row)][col]
     end
+
+    add_calculated_data!
+  end
+
+  def add_calculated_data!
+    both_are_no = @current_row[G] == 'NO' && @current_row[I] == 'NO'
+
+    @current_row[J] = both_are_no ? 'YES' : 'NO'
   end
 
   def copy_data(input_data)

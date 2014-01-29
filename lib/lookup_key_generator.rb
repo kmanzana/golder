@@ -2,7 +2,7 @@ module LookupKeyGenerator
   DASH   = '–'
   HYPHEN = '-'
 
-  ('A'..'Z').to_a.each_with_index do |letter, index|
+  ('A'..'AB').to_a.each_with_index do |letter, index|
     const_set(letter, index)
   end
 
