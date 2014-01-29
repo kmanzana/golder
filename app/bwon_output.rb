@@ -43,23 +43,28 @@ class BWONOutput
   def get_data(input_data)
     @current_row = copy_data(input_data)
 
-    add_data! unless key_doesnt_exist?
+    add_lookup_data! unless key_doesnt_exist?
+    add_copied_calculated_data!
 
     current_row
   end
 
-  def add_data!
+  def add_lookup_data!
     LOOKUP_COLUMNS.each do |col|
       @current_row[col] = RULE_BOOK[lookup_key(current_row)][col]
     end
 
-    add_calculated_data!
+    add_lookup_calculated_data!
   end
 
-  def add_calculated_data!
+  def add_lookup_calculated_data!
     both_are_no = @current_row[G] == 'NO' && @current_row[I] == 'NO'
 
     @current_row[J] = both_are_no ? 'YES' : 'NO'
+  end
+
+  def add_copied_calculated_data!
+    @current_row[L] = @current_row[K].to_f * 42
   end
 
   def copy_data(input_data)
