@@ -62,6 +62,8 @@ class BWONOutput
 
     @current_row[J] = both_are_no ? 'YES' : 'NO'
     @current_row[U] = calculate_u_percentage(@current_row[N])
+    @current_row[AB] = @current_row[N].to_f >= 0.1 ? 'YES' : 'NO'
+
   end
 
   def add_copied_calculated_data!
