@@ -21,7 +21,7 @@ class RuleBookBuilder
 
   def rule_book_hash
     each_row_with_object({}) do |row, rule_book|
-      next unless is_data(row)
+      next unless data?(row)
       rule_book[lookup_key(row)] ||= extract_relevant_data(row)
     end
   end
@@ -34,7 +34,7 @@ class RuleBookBuilder
     object
   end
 
-  def is_data(row)
+  def data?(row)
     row.first =~ %r{\d+\/\d+\/\d+}
   end
 
