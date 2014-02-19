@@ -43,7 +43,7 @@ class BWONOutput
   def get_data(input_data)
     @current_row = copy_data(input_data)
 
-    add_lookup_data! unless key_doesnt_exist?
+    add_lookup_data! if key_exists?
     add_copied_calculated_data!
 
     current_row
@@ -78,10 +78,8 @@ class BWONOutput
     end
   end
 
-  def key_doesnt_exist?
-    unless RULE_BOOK[lookup_key(current_row)]
-      @current_row[0] = "ERROR! #{@current_row[0]}"
-    end
+  def key_exists?
+    !!RULE_BOOK[lookup_key(current_row)]
   end
 
   def calculate_u_percentage(value)
