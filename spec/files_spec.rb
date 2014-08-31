@@ -1,4 +1,3 @@
- # rubocop:disable Void
 require 'spec_helper'
 
 ROOT = 'http://example.org/'

@@ -1,10 +1,23 @@
-inherit_from: ../.rubocop.yml
-
 AllCops:
-  Includes:
+  Include:
     - Rakefile
     - config.ru
-  Excludes:
-    - db/**
-    - config/**
-    - script/**
+    - Gemfile
+    - Capfile
+    - db/seeds.rb
+    - lib/**/*.rake
+    - lib/**/*.cap
+  Exclude:
+    - config/*
+
+Void:
+  Enabled: false
+
+Documentation:
+  Enabled: false
+
+MethodLength:
+  Max: 5
+
+ClassLength:
+  Max: 100
