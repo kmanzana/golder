@@ -1,12 +1,13 @@
 require 'csv'
 require 'yaml'
 
-class RuleBookBuilder
+class Discrepancies
   include LookupKeyGenerator
 
   def initialize(input_filenames: nil, output_filename: nil)
     @input_filenames = input_filenames
     @output_filename = output_filename
+    @descrepancies   = {}
   end
 
   def build
@@ -22,7 +23,20 @@ class RuleBookBuilder
   def rule_book_hash
     each_row_with_object({}) do |row, rule_book|
       next unless data?(row)
-      rule_book[lookup_key(row)] ||= extract_relevant_data(row)
+
+      new_data = extract_relevant_data(row)
+
+      if @descrepancies[lookup_key(row)]
+        unless @descrepancies[lookup_key(row)].include?(new_data)
+          @descrepancies[lookup_key(row)] << new_data
+        end
+      else
+        @descrepancies[lookup_key(row)] = [new_data]
+      end
+    end
+
+    @descrepancies.each do |key, value|
+      @descrepancies.delete(key) if value.length == 1
     end
   end
 
@@ -39,9 +53,8 @@ class RuleBookBuilder
   end
 
   def extract_relevant_data(row)
-    row[G..Y]
+    row.values_at(*LOOKUP_COLUMNS)
     .map(&:to_s)
     .map(&:strip)
-    .unshift(*([nil] * 6))
   end
 end

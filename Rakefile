@@ -1,6 +1,6 @@
-task default: [:build_rule_book]
+task default: [:rule_book, :discrepancies]
 
-task :build_rule_book do
+task :rule_book do
   require './lib/lookup_key_generator'
   require './lib/tasks/rule_book_builder'
 
@@ -8,8 +8,14 @@ task :build_rule_book do
     input_filenames: Dir.glob('./lib/resources/reference_files/*\.csv'),
     output_filename: './lib/resources/bwon_rule_book.yml')
   .build
+end
 
-  # RuleBookBuilder.build('./lib/resources/bwon_rule_book.yml') do |rule_book|
-  #   rule_book.with('./lib/resources/3Q13 BWON CD Report Final.csv')
-  # end
+task :discrepancies do
+  require './lib/lookup_key_generator'
+  require './lib/tasks/discrepancies'
+
+  Discrepancies.new(
+    input_filenames: Dir.glob('./lib/resources/reference_files/*\.csv'),
+    output_filename: './lib/resources/discrepancies.yml')
+  .build
 end
