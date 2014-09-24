@@ -19941,6 +19941,7000 @@ FORTHLUPTONPIPELINE;CR20&HWY85FRACKTANK;CRUDE;STATIONSUMPINPLANT1:
 - '2,400'
 - Crude
 - 'NO'
+CRUDEDOCKSUNLOADING;CRUDEDOCKS-UNDERGROUNDTANK-TANK101;OILYSTORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'YES'
+- 'NO'
+- '65'
+- '2,730'
+- 99%
+- 99.0%
+- '1.'
+- '8.82'
+- T-101 Underground Storage Tank Aqueous
+- 'YES'
+- '10,222'
+- '0.09'
+- 1%
+- '0.86'
+- '1,144.29'
+- T-101 Underground Storage Tank Oil
+- 'NO'
+CRUDEDOCKSUNLOADING;CRUDEDOCKS-UNDERGROUNDTANKANDSEPARATORTANKSECONDARYCONTAINTMENTS.;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '25'
+- '1,050'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '3,932'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+CRUDEDOCKSUNLOADING;CRUDEDOCKS-UNDERGROUNDTANK-TANK101SECONDARYCONTAINMENT.;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'YES'
+- 'NO'
+- '5'
+- '210'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '786'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+CRUDEDOCKSUNLOADING;CRUDEDOCKS-CONTAINMENTS;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '15'
+- '630'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '2,359'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+DENVERTRUCKTERMINAL;DENVERTERMINAL-6000GALSLOPTANK;DIESELANDGAS;PLANT2-TANK6:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- Tank 6
+- 'YES'
+- 'NO'
+- '35'
+- '1,470'
+- <10%
+- 10.0%
+- '1.'
+- '23.65'
+- Denver Truck Terminal Aqueous
+- 'YES'
+- '556'
+- '0.01'
+- 90%
+- '0.78'
+- '7,933.33'
+- Denver Truck Terminal Oil
+- 'YES'
+DENVERTRUCKTERMINAL;DENVERTERMINAL-6000GALSLOPTANK;DIESELANDGAS;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'YES'
+- 'NO'
+- '25'
+- '1,050'
+- <10%
+- 10.0%
+- '1.'
+- '23.65'
+- Denver Truck Terminal Aqueous
+- 'YES'
+- '397'
+- <0.01
+- 90%
+- '0.78'
+- '7,933.33'
+- Denver Truck Terminal Oil
+- 'YES'
+DENVERTRUCKTERMINAL;DENVERTERMINAL-VAPORSUMP;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '2'
+- '84'
+- 50-70%
+- 90.0%
+- '1.'
+- '23.65'
+- Denver Truck Terminal Aqueous
+- 'YES'
+- '286'
+- <0.01
+- 10%
+- '0.78'
+- '7,933.33'
+- Denver Truck Terminal Oil
+- 'YES'
+DENVERTRUCKTERMINAL;DENVERTERMINAL-6000GALSLOPTANK;DIESELANDGAS;PLANT2OFFLODINGDOCKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- Plant 2
+- 'YES'
+- 'NO'
+- '20'
+- '840'
+- <10%
+- 10.0%
+- '1.'
+- '23.65'
+- Denver Truck Terminal Aqueous
+- 'YES'
+- '318'
+- <0.01
+- 90%
+- '0.78'
+- '7,933.33'
+- Denver Truck Terminal Oil
+- 'YES'
+DENVERTRUCKTERMINAL;DENVERTERMINAL-6000GALSLOPTANK;OILYSTORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'YES'
+- 'NO'
+- '35'
+- '1,470'
+- '>90%'
+- 90.0%
+- '1.'
+- '23.65'
+- Denver Truck Terminal Aqueous
+- 'YES'
+- '5,004'
+- '0.12'
+- 10%
+- '0.78'
+- '7,933.33'
+- Denver Truck Terminal Oil
+- 'YES'
+DENVERTRUCKTERMINAL;DENVERTERMINAL-EMERGENCYBACKUPSUMP;DIESELANDGAS,WATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'YES'
+- 'NO'
+- '15'
+- '630'
+- 50-70%
+- 50.0%
+- '1.'
+- '23.65'
+- Denver Truck Terminal Aqueous
+- 'YES'
+- '1,191'
+- '0.03'
+- 50%
+- '0.78'
+- '7,933.33'
+- Denver Truck Terminal Oil
+- 'YES'
+DENVERTRUCKTERMINAL;DENVERTERMINAL-6000GALSLOPTANK;DIESELANDGAS;PLANT2-CRUDEDOCKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- P2 Docks
+- 'YES'
+- 'NO'
+- '20'
+- '840'
+- <10%
+- 10.0%
+- '1.'
+- '23.65'
+- Denver Truck Terminal Aqueous
+- 'YES'
+- '318'
+- <0.01
+- 90%
+- '0.78'
+- '7,933.33'
+- Denver Truck Terminal Oil
+- 'YES'
+METRO;RECOVERYSYSTEMS;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '25'
+- '1,050'
+- 99%
+- 99.0%
+- '1.'
+- '1.69'
+- All Groundwater
+- 'NO'
+- '3,932'
+- <0.01
+- 1%
+- '0.78'
+- '5,350.'
+- Remediation Oil
+- 'NO'
+METRO;RECOVERYSYSTEMS;WATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '65'
+- '2,730'
+- 99%
+- 99.0%
+- '1.'
+- '1.69'
+- All Groundwater
+- 'NO'
+- '10,222'
+- '0.02'
+- 1%
+- '0.78'
+- '5,350.'
+- Remediation Oil
+- 'NO'
+METRO;METROVAPORRECOVERYUNITS;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '12'
+- '504'
+- 99%
+- 99.0%
+- '1.'
+- '1.69'
+- All Groundwater
+- 'NO'
+- '1,887'
+- <0.01
+- 1%
+- '0.78'
+- '5,350.'
+- Remediation Oil
+- 'NO'
+METRO;METRO-VAPORRECOVERYUNITS;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '18'
+- '756'
+- 99%
+- 99.0%
+- '1.'
+- '1.69'
+- All Groundwater
+- 'NO'
+- '2,831'
+- <0.01
+- 1%
+- '0.78'
+- '5,350.'
+- Remediation Oil
+- 'NO'
+METRO;RECOVERYSISTEMS;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '15'
+- '630'
+- 99%
+- 99.0%
+- '1.'
+- '1.69'
+- All Groundwater
+- 'NO'
+- '2,359'
+- <0.01
+- 1%
+- '0.78'
+- '5,350.'
+- Remediation Oil
+- 'NO'
+NEWPIPELINENEXTTOLAB;PIPELINE;WATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '15'
+- '630'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '2,359'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+P2LAPI;LAPI;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '12'
+- '504'
+- '>90%'
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '1,887'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-BOREPITAREA;PLANT1-BOREPITAREA;WATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '20'
+- '840'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '3,145'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-SPILLS;PLANT1-CRUDEUNLOADINGSUMP;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '20'
+- '840'
+- '>90%'
+- 90.0%
+- '1.'
+- '24.'
+- Crude
+- 'NO'
+- '2,859'
+- '0.07'
+- 10%
+- '0.79'
+- '2,400.'
+- Crude
+- 'NO'
+PLANT1-STORMWATER;PLANT1-FLUXLOADINGRACK;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '10'
+- '420'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '1,573'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-STORMWATER;PLANT1-TANK2007-CONTAINMENT;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '20'
+- '840'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '3,145'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-STORMWATER;PLANT1-DRUMD-322CONTAINMENT-STORMWATER/WATER;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '20'
+- '840'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '3,145'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-STORMWATER;PLANT1-TANK52-PUMPCONTAINMENT;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '5'
+- '210'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '786'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-STORMWATER;PLANT1-TANK3801-PUMPCONTAINMENT;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '7'
+- '294'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '1,101'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-STORMWATER;PLANT1-DRUMD-3924CONTAINMENT-STORMWATER;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '35'
+- '1,470'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '5,504'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-STORMWATER;PLANT1-TANK86/87CONTAINMENTS;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '25'
+- '1,050'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '3,932'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-STORMWATER;PLANT1-FIRETRAININGFIELD;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '95'
+- '3,990'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '14,941'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-STORMWATER;PLANT1-FLUXRACK;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '5'
+- '210'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '786'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-STORMWATER;PLANT1-TANK70-CONTAINMENT;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '40'
+- '1,680'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '6,291'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-STORMWATER;PLANT1-CHEMWAREHOUSECONTAINMENT-STORMWATER;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '60'
+- '2,520'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '9,436'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-STORMWATER;PLANT1-HAZPAD;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '65'
+- '2,730'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '10,222'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-STORMWATER;PLANT1-PUMPP-803-AREA;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '30'
+- '1,260'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '4,718'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-STORMWATER;PLANT1-TANK96/97-SUMP;OILYSTORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '40'
+- '1,680'
+- '>90%'
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '6,291'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-STORMWATER;PLANT1-SEWEROMD1;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '40'
+- '1,680'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '6,291'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-STORMWATER;CRUDEDOCKS-CONTAINMENTS;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '10'
+- '420'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '1,573'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-STORMWATER;PLANT1-CRUDEUNLOADINGSUMP;OILYSTORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '25'
+- '1,050'
+- 99%
+- 90.0%
+- '1.'
+- '24.'
+- Crude
+- 'NO'
+- '3,574'
+- '0.09'
+- 10%
+- '0.79'
+- '2,400.'
+- Crude
+- 'NO'
+PLANT1-STORMWATER;PLANT1-SEWERBYOMD1;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '40'
+- '1,680'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '6,291'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-STORMWATER;PLANT1-PUMPP-467-CONTAINMENT;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '10'
+- '420'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '1,573'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-STORMWATER;PLANT1-TANK70-PUMPCONTAINMENT;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '7'
+- '294'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '1,101'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-STORMWATER;PLANT1-TANK72-PUMPCONTAINMENT;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '20'
+- '840'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '3,145'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-STORMWATER;PLANT1-SPIDERBOXOMD;OILYSTORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '100'
+- '4,200'
+- '>90%'
+- 90.0%
+- '1.'
+- '4.42'
+- Spider Sump, Aqueous Layer
+- 'NO'
+- '14,297'
+- '0.06'
+- 10%
+- '0.8'
+- '2,152.08'
+- Spider Sump, Oil Layer
+- 'NO'
+PLANT1-STORMWATER;PLANT1-DRUMD-196CONTAINMENT-STORMWATER;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '15'
+- '630'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '2,359'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-STORMWATER;PLANT1-KANEBPUMPCONTAINMENT;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '20'
+- '840'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '3,145'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-STORMWATER;PLANT1-TANK86/87CONTAINMENT;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '65'
+- '2,730'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '10,222'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-STORMWATER;PLANT1-TANK94-CONTAINMENT;OILYSTORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '50'
+- '2,100'
+- '>90%'
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '7,863'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-STORMWATER;PLANT1-DRUMD-385AREA;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '15'
+- '630'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '2,359'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-STORMWATER;PLANT1-TANK3801-CONTAINMENT;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '65'
+- '2,730'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '10,222'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-STORMWATER;PLANT1-BOREPIT;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '10'
+- '420'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '1,573'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-STORMWATER;PLANT1-TANK3-CONTAINMENT;WATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '30'
+- '1,260'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '4,718'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-DRUMD-3901MATERIAL;SOURWATER;PLANT1-DRUMD-3901:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- D-3901
+- 'NO'
+- 'NO'
+- '50'
+- '2,100'
+- 99%
+- 90.0%
+- '1.'
+- '1.39'
+- Sour Water
+- 'NO'
+- '7,149'
+- <0.01
+- 10%
+- '0.75'
+- '139.'
+- Sour Water
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-TANK78-P262SPOOLREPLACEMENT;GASOLINE;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '0.10'
+- '4'
+- <10%
+- 10.0%
+- '1.'
+- '360.'
+- Gasoline
+- 'NO'
+- '2'
+- <0.01
+- 90%
+- '0.77'
+- '36,000.'
+- Gasoline
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-TANK2-SUMP;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '8'
+- '336'
+- 99%
+- 95.5%
+- '1.'
+- '4.'
+- Distillate
+- 'NO'
+- '1,214'
+- <0.01
+- 5%
+- '0.84'
+- '400.'
+- Distillate
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-BIODIESELFRACTANK;BIODIESEL;PLANT1-TANK2004:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- Tank 2004
+- 'NO'
+- 'NO'
+- '60'
+- '2,520'
+- <10%
+- 10.0%
+- '1.'
+- '0.02'
+- Diesel
+- 'NO'
+- '953'
+- <0.01
+- 90%
+- '0.86'
+- '2.'
+- Diesel
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-P390DRAIN;JETFUEL;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '0.5'
+- '21'
+- <10%
+- 10.0%
+- '1.'
+- '0.6'
+- Jet
+- 'NO'
+- '8'
+- <0.01
+- 90%
+- '0.79'
+- '60.'
+- Jet
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-P963@T59;CARBONBLACKOIL;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '0.07'
+- '3'
+- <10%
+- 10%
+- '1.'
+- <0.01
+- Crude, Reduced (Asphalt)
+- 'NO'
+- '1'
+- <0.01
+- 90%
+- '0.96'
+- '0.19'
+- Crude, Reduced (Asphalt)
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-P583WATERWASH;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '60'
+- '2,520'
+- 99%
+- 99.0%
+- '1.'
+- '0.6'
+- jet
+- 'NO'
+- '9,436'
+- <0.01
+- 1%
+- '0.79'
+- '60.'
+- jet
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-TANK77-WATERDRAW;CAUSTICANDWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '3'
+- '126'
+- 99%
+- 95.5%
+- '1.'
+- '360.'
+- Gasoline
+- 'NO'
+- '455'
+- '0.16'
+- 5%
+- '0.77'
+- '36,000.'
+- Gasoline
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-TANK778-WATERDRAW;NAPHTHA;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '0.5'
+- '21'
+- <10%
+- 10.0%
+- '1.'
+- '3.2'
+- Naphtha
+- 'NO'
+- '8'
+- <0.01
+- 90%
+- '0.76'
+- '320.'
+- Naphtha
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-JET/DIESELBLENDERS;DIESELANDJET;PLANT2-TANK6:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- Tank 6
+- 'NO'
+- 'NO'
+- '20'
+- '840'
+- <10%
+- 10.0%
+- '1.'
+- '0.02'
+- Diesel
+- 'NO'
+- '318'
+- <0.01
+- 90%
+- '0.86'
+- '2.'
+- Diesel
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-TANK75-SPOOLPIECEDRAIN;REFORMATE;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '0.25'
+- '11'
+- <10%
+- 10.0%
+- '1.'
+- '470.'
+- Reformate
+- 'NO'
+- '4'
+- <0.01
+- 90%
+- '0.81'
+- '47,000.'
+- Reformate
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-CRUDEUNLOADINGSUMP;OILYSTORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '25'
+- '1,050'
+- '>90%'
+- 90.0%
+- '1.'
+- '24.'
+- Crude
+- 'NO'
+- '3,574'
+- '0.09'
+- 10%
+- '0.79'
+- '2,400.'
+- Crude
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-TANK778-LINEDRAIN;NAPHTHA;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '0.5'
+- '21'
+- <10%
+- 10.0%
+- '1.'
+- '3.2'
+- Naphtha
+- 'NO'
+- '8'
+- <0.01
+- 90%
+- '0.76'
+- '320.'
+- Naphtha
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-DRUMD-815MATERIAL;DIESEL;PLANT2-TANK6:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- Tank 6
+- 'NO'
+- 'NO'
+- '180'
+- '7,560'
+- <10%
+- 10.0%
+- '1.'
+- '0.02'
+- Diesel
+- 'NO'
+- '2,859'
+- <0.01
+- 90%
+- '0.86'
+- '2.'
+- Diesel
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-BIODIESELFILTER;BIODIESEL;PLANT2-TANK6:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- Tank 6
+- 'NO'
+- 'NO'
+- '1.5'
+- '63'
+- <10%
+- 10.0%
+- '1.'
+- '0.02'
+- Diesel
+- 'NO'
+- '24'
+- <0.01
+- 90%
+- '0.86'
+- '2.'
+- Diesel
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-TANK75-LINEDRAINS;REFORMATE;PLANT2-TANK6:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- Tank 6
+- 'NO'
+- 'NO'
+- '15'
+- '630'
+- <10%
+- 10.0%
+- '1.'
+- '470.'
+- Reformate
+- 'NO'
+- '238'
+- '0.11'
+- 90%
+- '0.81'
+- '47,000.'
+- Reformate
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-PUMPP-905;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '5'
+- '210'
+- '>90%'
+- 90.0%
+- '1.'
+- '4.59'
+- TK-4507 Waste Water Tank
+- 'no'
+- '715'
+- <0.01
+- 10%
+- '0.85'
+- '573.33'
+- TK-4507 Waste Water Tank
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-TANK75LINEFLUSHES;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '20'
+- '840'
+- '>90%'
+- 90.0%
+- '1.'
+- '470.'
+- Reformate
+- 'NO'
+- '2,859'
+- '1.34'
+- 10%
+- '0.81'
+- '47,000.'
+- Reformate
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-TANK75-SUMP;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '95'
+- '3,990'
+- '>90%'
+- 90.0%
+- '1.'
+- '470.'
+- Reformate
+- 'NO'
+- '13,582'
+- '6.38'
+- 10%
+- '0.81'
+- '47,000.'
+- Reformate
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-TANK94-CONTAINMENT;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '35'
+- '1,470'
+- '>90%'
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '5,504'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-TANK1-LINEDRAIN;NAPHTHA;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- ''
+- VAC PAD
+- 'NO'
+- 'NO'
+- '3'
+- '126'
+- <10%
+- 10.0%
+- '1.'
+- '3.2'
+- Naphtha
+- 'NO'
+- '48'
+- <0.01
+- 90%
+- '0.76'
+- '320.'
+- Naphtha
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-TANK1-LINEFLUSH;JETFUEL;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- ''
+- VAC PAD
+- 'NO'
+- 'NO'
+- '3'
+- '126'
+- <10%
+- 10.0%
+- '1.'
+- '0.6'
+- Jet
+- 'NO'
+- '48'
+- <0.01
+- 90%
+- '0.79'
+- '60.'
+- Jet
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-TANK58-FILTERS;OIL/DIESEL;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'No'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '0.5'
+- '21'
+- <10%
+- 10.0%
+- '1.'
+- '0.02'
+- Diesel
+- 'NO'
+- '8'
+- <0.01
+- 90%
+- '0.86'
+- '2.'
+- Diesel
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-TANK75-WATERDRAW;OILWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '650'
+- '27,300'
+- 99%
+- 95.5%
+- '1.'
+- '470.'
+- Reformate
+- 'NO'
+- '98,611'
+- '46.35'
+- 5%
+- '0.81'
+- '47,000.'
+- Reformate
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1D189;JETFUEL;PLANT1CRUDEDOCKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- Crude Docks
+- 'NO'
+- 'NO'
+- '65'
+- '2,730'
+- <10%
+- 10.0%
+- '1.'
+- '0.6'
+- Jet
+- 'NO'
+- '1,033'
+- <0.01
+- 90%
+- '0.79'
+- '60.'
+- Jet
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-DRUMD-322CONTAINMENT-STORMWATER/WATER;WATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '20'
+- '840'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '3,145'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PIPELINEFROMTANK58TOTANK1;DIESELANDWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '5'
+- '210'
+- 50-70%
+- 50.0%
+- '1.'
+- '24.'
+- Crude
+- 'NO'
+- '397'
+- <0.01
+- 50%
+- '0.79'
+- '2,400.'
+- Crude
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1TANK58;OILYSTORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '5'
+- '210'
+- 50-70%
+- 50.0%
+- '1.'
+- '24.'
+- Crude
+- 'NO'
+- '397'
+- <0.01
+- 50%
+- '0.79'
+- '2,400.'
+- Crude
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;TANK1PIPELINE;DIESELANDWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'yes'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '10'
+- '420'
+- 50-70%
+- 50.0%
+- '1.'
+- '24.'
+- Crude
+- 'NO'
+- '794'
+- '0.02'
+- 50%
+- '0.79'
+- '2,400.'
+- crude
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-DRUMD-322CONTAINMENT-STORMWATER/WATER;CONDENSATE;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '20'
+- '840'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '3,145'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-SAMPLEPOINTS#1OMD;SOURWATERANDCRUDE;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '1'
+- '42'
+- '>90%'
+- 90.0%
+- '1.'
+- '24.'
+- Crude
+- 'NO'
+- '143'
+- <0.01
+- 10%
+- '0.79'
+- '2,400.'
+- Crude
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-TANK3801;DIESEL;TANK52:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- Tank 52
+- 'NO'
+- 'YES'
+- '260'
+- '10,920'
+- <10%
+- 95.5%
+- '1.'
+- '0.1'
+- Ultra Low Sulfur Diesel
+- 'NO'
+- '39,444'
+- <0.01
+- 5%
+- '0.84'
+- '10.'
+- Ultra Low Sulfur Diesel
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-TANK58AREA.-PIPELINE;CRUDEANDWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '5'
+- '210'
+- 50-70%
+- 50.0%
+- '1.'
+- '24.'
+- Crude
+- 'NO'
+- '397'
+- <0.01
+- 50%
+- '0.79'
+- '2,400.'
+- Crude
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;SAMPLEPOINTS;CRUDE;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '1'
+- '42'
+- 50-70%
+- 50.0%
+- '1.'
+- '24.'
+- Crude
+- 'NO'
+- '79'
+- <0.01
+- 50%
+- '0.79'
+- '2,400.'
+- Crude
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PUMPCONTAIMENTP314;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '5'
+- '210'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '786'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1TANK58AREA.;CRUDEANDWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '5'
+- '210'
+- 50-70%
+- 50.0%
+- '1.'
+- '24.'
+- Crude
+- 'NO'
+- '397'
+- <0.01
+- 50%
+- '0.79'
+- '2,400.'
+- Crude
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-TANK58-CONTAINMENT;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '65'
+- '2,730'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '10,222'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-FLARESUMP;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '25'
+- '1,050'
+- 99%
+- 90.0%
+- '1.'
+- '4.03'
+- Knockout Water, Fuel Gas (Hydrocraker)
+- 'NO'
+- '3,574'
+- '0.01'
+- 10%
+- '0.73'
+- '3,150.'
+- Knockout Water, Fuel Gas (Hydrocraker)
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;DOCKETHANOLPLANT1;ETHANOL;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '2'
+- '84'
+- <10%
+- 10.0%
+- '1.'
+- -0-
+- Ethanol
+- 'NO'
+- '32'
+- -0-
+- 90%
+- '0.79'
+- -0-
+- Ethanol
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PUMP804;DIESELANDWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '5'
+- '210'
+- '>90%'
+- 90.0%
+- '1.'
+- '0.02'
+- Diesel
+- 'NO'
+- '715'
+- <0.01
+- 10%
+- '0.86'
+- '2.'
+- Diesel
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;OFFLOADINETHANOLDOCK;ETHANOL;PLANT2-FRACTANKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- P2 Frac Tanks
+- 'NO'
+- 'YES'
+- '2'
+- '84'
+- <10%
+- 10.0%
+- '1.'
+- -0-
+- Ethanol
+- 'NO'
+- '32'
+- -0-
+- 90%
+- '0.79'
+- -0-
+- Ethanol
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-TANK58AREA.;CRUDE;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '5'
+- '210'
+- 50-70%
+- 50.0%
+- '1.'
+- '24.'
+- Crude
+- 'NO'
+- '397'
+- <0.01
+- 50%
+- '0.79'
+- '2,400.'
+- Crude
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;CRUDEDOCKSUMPPLANT1;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'YES'
+- 'NO'
+- '10'
+- '420'
+- 99%
+- 90.0%
+- '1.'
+- '8.82'
+- T-101 Underground Storage Tank Aqueous
+- 'YES'
+- '1,430'
+- '0.01'
+- 10%
+- '0.86'
+- '1,144.29'
+- T-101 Underground Storage Tank Oil
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PUMP314;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'no'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '10'
+- '420'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '1,573'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;FUELISLANDSLOPTANK;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '12'
+- '504'
+- 99%
+- 99.0%
+- '1.'
+- '10.5'
+- TK-4516 Slop Oil Tank Aqueous
+- 'NO'
+- '1,887'
+- '0.02'
+- 1%
+- '0.81'
+- '1,543.33'
+- TK-4516 Slop Oil Tank
+- 'YES'
+PLANT1-UNIT008-#1OMDTANKFARM;TANK1AREA;DIESEL;TANK775:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'yes'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '10'
+- '420'
+- 50-70%
+- 50.0%
+- '1.'
+- '24.'
+- Crude
+- 'NO'
+- '794'
+- '0.02'
+- 50%
+- '0.79'
+- '2,400.'
+- crude
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;TANK1PIPELINES;DIESEL;TANK775:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'yes'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '10'
+- '420'
+- 50-70%
+- 50.0%
+- '1.'
+- '24.'
+- Crude
+- 'NO'
+- '794'
+- '0.02'
+- 50%
+- '0.79'
+- '2,400.'
+- crude
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;DENVERTERMINAL-6000GALSLOPTANK;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'YES'
+- 'NO'
+- '25'
+- '1,050'
+- 99%
+- 90.0%
+- '1.'
+- '23.65'
+- Denver Truck Terminal Aqueous
+- 'YES'
+- '3,574'
+- '0.08'
+- 10%
+- '0.78'
+- '7,933.33'
+- Denver Truck Terminal Oil
+- 'YES'
+PLANT1-UNIT008-#1OMDTANKFARM;TANK1LINES;DIESEL;CRUDEDOCKPLANT1:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'yes'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '10'
+- '420'
+- 50-70%
+- 50.0%
+- '1.'
+- '24.'
+- Crude
+- 'NO'
+- '794'
+- '0.02'
+- 50%
+- '0.79'
+- '2,400.'
+- crude
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-TANK3801;LIGHTCYCLEOIL-LCO;PLANT1TANK52:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- Tank 52
+- 'NO'
+- 'YES'
+- '130'
+- '5,460'
+- <10%
+- 95.5%
+- '1.'
+- '0.1'
+- Ultra Low Sulfur Diesel
+- 'NO'
+- '19,722'
+- <0.01
+- 5%
+- '0.84'
+- '10.'
+- Ultra Low Sulfur Diesel
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-TANK775-CONTAINMENT/ROOFDRAIN;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '65'
+- '2,730'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '10,222'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PIPELINEINTANK1AREA.;DIESELANDWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'yes'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '10'
+- '420'
+- 50-70%
+- 50.0%
+- '1.'
+- '24.'
+- Crude
+- 'NO'
+- '794'
+- '0.02'
+- 50%
+- '0.79'
+- '2,400.'
+- crude
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PUMP811;DIESEL;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- ''
+- VAC PAD
+- 'NO'
+- 'NO'
+- '1'
+- '42'
+- 30-50%
+- 50.0%
+- '1.'
+- '0.02'
+- Diesel
+- 'NO'
+- '79'
+- <0.01
+- 50%
+- '0.86'
+- '2.'
+- Diesel
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-TANK80-WATERDRAW;GASOLINEANDWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '25'
+- '1,050'
+- 99%
+- 95.5%
+- '1.'
+- '56.2'
+- Debut Gasoline
+- 'NO'
+- '3,793'
+- '0.21'
+- 5%
+- '0.75'
+- '5,620.'
+- Debut Gasoline
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1CRUDEDOCK;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'YES'
+- 'NO'
+- '10'
+- '420'
+- '>90%'
+- 90.0%
+- '1.'
+- '8.82'
+- T-101 Underground Storage Tank Aqueous
+- 'YES'
+- '1,430'
+- '0.01'
+- 10%
+- '0.86'
+- '1,144.29'
+- T-101 Underground Storage Tank Oil
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-TANK75-WATERDRAW;GASOLINEANDWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '45'
+- '1,890'
+- 99%
+- 95.5%
+- '1.'
+- '470.'
+- Reformate
+- 'NO'
+- '6,827'
+- '3.21'
+- 5%
+- '0.81'
+- '47,000.'
+- Reformate
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-TANK55-WATERDRAW;GASOLINE;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '1'
+- '42'
+- 99%
+- 99.0%
+- '1.'
+- '360.'
+- Gasoline
+- 'NO'
+- '157'
+- '0.06'
+- 1%
+- '0.77'
+- '36,000.'
+- Gasoline
+- 'NO'
+PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-TANK3801-WATERDRAW;DIESELANDWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '65'
+- '2,730'
+- 99%
+- 95.5%
+- '1.'
+- '0.1'
+- Ultra Low Sulfur Diesel
+- 'NO'
+- '9,861'
+- <0.01
+- 5%
+- '0.84'
+- '10.'
+- Ultra Low Sulfur Diesel
+- 'NO'
+PLANT1-UNIT012-RAILROADTANKCARLOADING;PLANT1-BIODIESELWASTEBBL;BIODIESEL;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '0.5'
+- '21'
+- <10%
+- 10.0%
+- '1.'
+- '0.02'
+- Diesel
+- 'NO'
+- '8'
+- <0.01
+- 90%
+- '0.86'
+- '2.'
+- Diesel
+- 'NO'
+PLANT1-UNIT013-#1CRUDE;DESALTER,D-77;OIL;PLANT1-CENTRIFUGEMIXTANKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- TO
+- 'NO'
+- 'NO'
+- '380'
+- '15,960'
+- <10%
+- 10.0%
+- '1.'
+- '24.1'
+- DES-77 First Stage Desalter Effluent
+- 'NO'
+- '6,037'
+- '0.15'
+- 90%
+- '0.83'
+- '1,540.'
+- DES-77 First Stage Desalter Oil
+- 'NO'
+PLANT1-UNIT013-#1CRUDEDOCKSUMP;PLANT1-CRUDEUNLOADINGSUMP;CRUDEANDWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '20'
+- '840'
+- '>90%'
+- 90.0%
+- '1.'
+- '24.'
+- Crude
+- 'NO'
+- '2,859'
+- '0.07'
+- 10%
+- '0.79'
+- '2,400.'
+- Crude
+- 'NO'
+PLANT1-UNIT015-NDS/REFORMER;PLANT1-TURNAROUNDFUELCELLS;DIESEL;PLANT2-TANK6:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- Tank 6
+- 'NO'
+- 'NO'
+- '25'
+- '1,050'
+- <10%
+- 10.0%
+- '1.'
+- '0.02'
+- Diesel
+- 'NO'
+- '397'
+- <0.01
+- 90%
+- '0.86'
+- '2.'
+- Diesel
+- 'NO'
+PLANT1-UNIT017-CATFEEDHDSMATERIAL;PLANT1-SEWER;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '85'
+- '3,570'
+- '>90%'
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '13,368'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-UNIT035-FLUIDCATALYTICCRACKER;PLANT1-SEWER;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '20'
+- '840'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '3,145'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-UNIT035-FLUIDCATALYTICCRACKER;PLANT1-DRUMD-3901MATERIAL;SOURWATER;PLANT1-DRUMD-3901:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- D-3901
+- 'NO'
+- 'NO'
+- '50'
+- '2,100'
+- 99%
+- 99.0%
+- '1.'
+- '1.39'
+- Sour Water
+- 'NO'
+- '7,863'
+- '0.01'
+- 1%
+- '0.75'
+- '139.'
+- Sour Water
+- 'NO'
+PLANT1-UNIT035-SUMP;SUMPINW53AREA;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '20'
+- '840'
+- 99%
+- 99.0%
+- '1.'
+- '4.03'
+- Knockout Water, Fuel Gas (Hydrocraker)
+- 'NO'
+- '3,145'
+- '0.01'
+- 1%
+- '0.73'
+- '3,150.'
+- Knockout Water, Fuel Gas (Hydrocraker)
+- 'NO'
+PLANT1-UNIT039-FLARE;PLANT1-P306DRAIN;SOURWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '0.5'
+- '21'
+- '>90%'
+- 90.0%
+- '1.'
+- '1.39'
+- Sour Water
+- 'NO'
+- '71'
+- <0.01
+- 10%
+- '0.75'
+- '139.'
+- Sour Water
+- 'NO'
+PLANT1-UNIT039-FLARE;P1N-D-322;WATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '25'
+- '1,050'
+- 99%
+- 99.0%
+- '1.'
+- '4.03'
+- Knockout Water, Fuel Gas (Hydrocraker)
+- 'NO'
+- '3,932'
+- '0.02'
+- 1%
+- '0.73'
+- '3,150.'
+- Knockout Water, Fuel Gas (Hydrocraker)
+- 'NO'
+PLANT1-UNIT039-FLARE;PLANT1-DRUMD-322CONTAINMENT-STORMWATER/WATER;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '65'
+- '2,730'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '10,222'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-UNIT039-FLARE;PLANT1-DRUMD-322CONTAINMENT-STORMWATER/WATER;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '65'
+- '2,730'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '10,222'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-UNIT039-FLARE;PLANT1-FLARESUMP;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '35'
+- '1,470'
+- 99%
+- 99.0%
+- '1.'
+- '4.03'
+- Knockout Water, Fuel Gas (Hydrocraker)
+- 'NO'
+- '5,504'
+- '0.02'
+- 1%
+- '0.73'
+- '3,150.'
+- Knockout Water, Fuel Gas (Hydrocraker)
+- 'NO'
+PLANT1-UNIT039-FLARE;FLARESUMP;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '40'
+- '1,680'
+- 99%
+- 99.0%
+- '1.'
+- '4.03'
+- Knockout Water, Fuel Gas (Hydrocraker)
+- 'NO'
+- '6,291'
+- '0.03'
+- 1%
+- '0.73'
+- '3,150.'
+- Knockout Water, Fuel Gas (Hydrocraker)
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK27-WATERDRAW;WATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '25'
+- '1,050'
+- 99%
+- 99.0%
+- '1.'
+- '4.17'
+- sludge processing
+- 'NO'
+- '3,932'
+- '0.02'
+- 1%
+- '1.07'
+- '417.'
+- sludge processing
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-1STLAGOON;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '20'
+- '840'
+- 99%
+- 99.0%
+- '1.'
+- <0.01
+- Fourth Lagoon
+- 'NO'
+- '3,145'
+- <0.01
+- 1%
+- '0.85'
+- '0.63'
+- Fourth Lagoon
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-STORAGEFRACSTANKFROMTANK-4516;SLUDGE;PLANT1-CENTRIFUGEMIXTANKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- TO
+- 'NO'
+- 'NO'
+- '130'
+- '5,460'
+- <10%
+- 10.0%
+- '1.'
+- '10.5'
+- TK-4516 Slop Oil Tank Aqueous
+- 'NO'
+- '2,065'
+- '0.02'
+- 90%
+- '0.81'
+- '1,543.33'
+- TK-4516 Slop Oil Tank
+- 'YES'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK4508-DGF;SLUDGE;PLANT1-STORAGEFRACTANKSFROMTANK-4516:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- Frac Tanks by TK-4516
+- 'NO'
+- 'NO'
+- '55'
+- '2,310'
+- <10%
+- 10.0%
+- '1.'
+- '3.95'
+- TK-4507 Waste Water Tank
+- 'YES'
+- '874'
+- <0.01
+- 90%
+- '0.85'
+- '573.33'
+- TK-4507 Waste Water Tank
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANKSSECONDARYCONTAINMENT-ENVIRONMENTAL;WATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '15'
+- '630'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '2,359'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-STORAGEFRACTANKSFROMTANK4516;OIL;PLANT1-CENTRIFUGEMIXTANKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- TO
+- 'NO'
+- 'NO'
+- '25'
+- '1,050'
+- <10%
+- 10.0%
+- '1.'
+- '10.5'
+- TK-4516 Slop Oil Tank Aqueous
+- 'NO'
+- '397'
+- <0.01
+- 90%
+- '0.81'
+- '1,543.33'
+- TK-4516 Slop Oil Tank
+- 'YES'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK4516;SLUDGE;PLANT1-STORAGEFRACTANKSFROMTANK-4516:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- Frac Tanks by TK-4516
+- 'NO'
+- 'NO'
+- '440'
+- '18,480'
+- <10%
+- 10.0%
+- '1.'
+- '10.5'
+- TK-4516 Slop Oil Tank Aqueous
+- 'NO'
+- '6,990'
+- '0.07'
+- 90%
+- '0.81'
+- '1,543.33'
+- TK-4516 Slop Oil Tank
+- 'YES'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK4508-DGF;SLUDGE;PLANT1-STORAGEFRACTANKSBYFLARE:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- Frac Tanks by Flare
+- 'NO'
+- 'NO'
+- '65'
+- '2,730'
+- 10-30%
+- 10.0%
+- '1.'
+- '3.95'
+- TK-4507 Waste Water Tank
+- 'YES'
+- '1,033'
+- <0.01
+- 90%
+- '0.85'
+- '573.33'
+- TK-4507 Waste Water Tank
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANKSSECONDARYCONTAINMENTS-ENVIRONMENTAL;WATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '25'
+- '1,050'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '3,932'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-STORAGEFRACTANKSBYFLARE;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '40'
+- '1,680'
+- 99%
+- 99.0%
+- '1.'
+- '10.5'
+- TK-4516 Slop Oil Tank Aqueous
+- 'NO'
+- '6,291'
+- '0.07'
+- 1%
+- '0.81'
+- '1,543.33'
+- TK-4516 Slop Oil Tank
+- 'YES'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK4516;SLUDGE;PLANT1-CENTRIFUGEMIXTANKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- TO
+- 'NO'
+- 'NO'
+- '105'
+- '4,410'
+- <10%
+- 10.0%
+- '1.'
+- '10.5'
+- TK-4516 Slop Oil Tank Aqueous
+- 'NO'
+- '1,668'
+- '0.02'
+- 90%
+- '0.81'
+- '1,543.33'
+- TK-4516 Slop Oil Tank
+- 'YES'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-SKIDANDCONCRETEPADCENTRIFUGE;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '20'
+- '840'
+- 99%
+- 99.0%
+- '1.'
+- '10.5'
+- TK-4516 Slop Oil Tank Aqueous
+- 'NO'
+- '3,145'
+- '0.03'
+- 1%
+- '0.81'
+- '1,543.33'
+- TK-4516 Slop Oil Tank
+- 'YES'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-CENTRIFUGEGOODOILTANK;SLUDGE;PLANT1-CENTRIFUGEMIXTANKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- TO
+- 'NO'
+- 'NO'
+- '115'
+- '4,830'
+- <10%
+- 10.0%
+- '1.'
+- '10.5'
+- TK-4516 Slop Oil Tank Aqueous
+- 'NO'
+- '1,827'
+- '0.02'
+- 90%
+- '0.81'
+- '1,543.33'
+- TK-4516 Slop Oil Tank
+- 'YES'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-STORAGEFRACTANKSBYFLARE;SLUDGE;PLANT1-CENTRIFUGEMIXTANKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- TO
+- 'NO'
+- 'NO'
+- '60'
+- '2,520'
+- <10%
+- 10.0%
+- '1.'
+- '10.5'
+- TK-4516 Slop Oil Tank Aqueous
+- 'NO'
+- '953'
+- '0.01'
+- 90%
+- '0.81'
+- '1,543.33'
+- TK-4516 Slop Oil Tank
+- 'YES'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-CENTRIFUGEGOODOILTANK;SLUDGE/OIL;PLANT1-CENTRIFUGEMIXTANKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- TO
+- 'NO'
+- 'NO'
+- '180'
+- '7,560'
+- 10-30%
+- 20.0%
+- '1.'
+- '10.5'
+- TK-4516 Slop Oil Tank Aqueous
+- 'NO'
+- '5,719'
+- '0.06'
+- 80%
+- '0.81'
+- '1,543.33'
+- TK-4516 Slop Oil Tank
+- 'YES'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-SKIDANDCONCRETEPADATCENTRIFUGE;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '10'
+- '420'
+- 99%
+- 99.0%
+- '1.'
+- '10.5'
+- TK-4516 Slop Oil Tank Aqueous
+- 'NO'
+- '1,573'
+- '0.02'
+- 1%
+- '0.81'
+- '1,543.33'
+- TK-4516 Slop Oil Tank
+- 'YES'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK4508-DGF;SLUDGE;PLANT1-CENTRIFUGEMIXTANKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- TO
+- 'NO'
+- 'NO'
+- '65'
+- '2,730'
+- <10%
+- 10.0%
+- '1.'
+- '3.95'
+- TK-4507 Waste Water Tank
+- 'YES'
+- '1,033'
+- <0.01
+- 90%
+- '0.85'
+- '573.33'
+- TK-4507 Waste Water Tank
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK60-OILDRAIN;OIL;PLANT1-STORAGEFRACTANKSBYFLARE:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- Frac Tanks by Flare
+- 'NO'
+- 'NO'
+- '3'
+- '126'
+- <10%
+- 10.0%
+- '1.'
+- '3.52'
+- TK-60 Equalization Tank Aqueous
+- 'NO'
+- '48'
+- <0.01
+- 90%
+- '0.85'
+- '1,230.'
+- TK-60 Equalization Tank
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK4508-DGF;SLUDGEANDWATER;PLANT1-STORAGEFRACTANKSBYFLARE:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- Frac Tanks by Flare
+- 'NO'
+- 'NO'
+- '65'
+- '2,730'
+- 30-50%
+- 30.0%
+- '1.'
+- '3.95'
+- TK-4507 Waste Water Tank
+- 'YES'
+- '3,098'
+- '0.01'
+- 70%
+- '0.85'
+- '573.33'
+- TK-4507 Waste Water Tank
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-CENTRIFUGEMIXTANK;OIL;PLANT2-FRACTANKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- TO
+- 'NO'
+- 'NO'
+- '195'
+- '8,190'
+- <10%
+- 10.0%
+- '1.'
+- '10.5'
+- TK-4516 Slop Oil Tank Aqueous
+- 'NO'
+- '3,098'
+- '0.03'
+- 90%
+- '0.81'
+- '1,543.33'
+- TK-4516 Slop Oil Tank
+- 'YES'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-GOODOILFRACTANKATCENTRIFUGE;OIL;PLANT1-CENTRIFUGEMIXTANKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- TO
+- 'NO'
+- 'NO'
+- '120'
+- '5,040'
+- <10%
+- 10.0%
+- '1.'
+- '10.5'
+- TK-4516 Slop Oil Tank Aqueous
+- 'NO'
+- '1,906'
+- '0.02'
+- 90%
+- '0.9'
+- '816.67'
+- TK-4516 Slop Oil Tank
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANKSSECONDARYCONTAINMENTS-ENVIRONMENTAL;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '15'
+- '630'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '2,359'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK4516;SLUDGE;PLANT1-STORAGEFRACTANKSBYFLARE:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- Frac Tanks by Flare
+- 'NO'
+- 'NO'
+- '65'
+- '2,730'
+- <10%
+- 10.0%
+- '1.'
+- '10.5'
+- TK-4516 Slop Oil Tank Aqueous
+- 'NO'
+- '1,033'
+- '0.01'
+- 90%
+- '0.81'
+- '1,543.33'
+- TK-4516 Slop Oil Tank
+- 'YES'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-CONCRETEPADANDSKIDCENTRIFUGE;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '10'
+- '420'
+- 99%
+- 99.0%
+- '1.'
+- '10.5'
+- TK-4516 Slop Oil Tank Aqueous
+- 'NO'
+- '1,573'
+- '0.02'
+- 1%
+- '0.81'
+- '1,543.33'
+- TK-4516 Slop Oil Tank
+- 'YES'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK4513-WATERDRAW;WATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '65'
+- '2,730'
+- 99%
+- 99.0%
+- '1.'
+- '4.17'
+- sludge processing
+- 'NO'
+- '10,222'
+- '0.04'
+- 1%
+- '1.07'
+- '417.'
+- sludge processing
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK4504-DGF;SLUDGEANDWATER;PLANT1-STORAGEFRACTANKSBYFLARE:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- Frac Tanks by Flare
+- 'NO'
+- 'NO'
+- '30'
+- '1,260'
+- 30-50%
+- 30.0%
+- '1.'
+- '3.95'
+- TK-4507 Waste Water Tank
+- 'YES'
+- '1,430'
+- <0.01
+- 70%
+- '0.85'
+- '573.33'
+- TK-4507 Waste Water Tank
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANKSSECONDARYCONTAINMENTS-ENVIRONMENTAL;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '40'
+- '1,680'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '6,291'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-3RDLAGOON;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '10'
+- '420'
+- 99%
+- 99.0%
+- '1.'
+- <0.01
+- Fourth Lagoon
+- 'NO'
+- '1,573'
+- <0.01
+- 1%
+- '0.85'
+- '0.63'
+- Fourth Lagoon
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-CONCRETEPADANDSKIDATCENTRIFUGE;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '8'
+- '336'
+- 99%
+- 99.0%
+- '1.'
+- '10.5'
+- TK-4516 Slop Oil Tank Aqueous
+- 'NO'
+- '1,258'
+- '0.01'
+- 1%
+- '0.81'
+- '1,543.33'
+- TK-4516 Slop Oil Tank
+- 'YES'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK4501;OIL;PLANT1-CENTRIFUGEMIXTANKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- TO
+- 'NO'
+- 'NO'
+- '55'
+- '2,310'
+- <10%
+- 10.0%
+- '1.'
+- '7.61'
+- Tank 4501, Aqueous Layer
+- 'NO'
+- '874'
+- <0.01
+- 90%
+- '0.92'
+- '1,251.4'
+- Tank 4501, Oil Layer
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK4516-CONTAINMENT;SLUDGE;PLANT1-CENTRIFUGEMIXTANKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- TO
+- 'NO'
+- 'NO'
+- '65'
+- '2,730'
+- <10%
+- 10.0%
+- '1.'
+- '10.5'
+- TK-4516 Slop Oil Tank Aqueous
+- 'NO'
+- '1,033'
+- '0.01'
+- 90%
+- '0.81'
+- '1,543.33'
+- TK-4516 Slop Oil Tank
+- 'YES'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK4516-CONTAINMENT;SLUDGE;PLANT1-STORAGEFRACTANKSBYFLARE:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- Frac Tanks by Flare
+- 'NO'
+- 'NO'
+- '130'
+- '5,460'
+- <10%
+- 10.0%
+- '1.'
+- '10.5'
+- TK-4516 Slop Oil Tank Aqueous
+- 'NO'
+- '2,065'
+- '0.02'
+- 90%
+- '0.81'
+- '1,543.33'
+- TK-4516 Slop Oil Tank
+- 'YES'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK4516-CONTAINMENT;WATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '25'
+- '1,050'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '3,932'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-FRACTANKS-TANK4516-CENTRIFUGE;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '10'
+- '420'
+- 99%
+- 99.0%
+- '1.'
+- '10.5'
+- TK-4516 Slop Oil Tank Aqueous
+- 'NO'
+- '1,573'
+- '0.02'
+- 1%
+- '0.81'
+- '1,543.33'
+- TK-4516 Slop Oil Tank
+- 'YES'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-DRUMD-322CONTAINMENT-STORMWATER/WATER;WATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '40'
+- '1,680'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '6,291'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-CONCRETEPAD,SKIDANDNONHAZTANKATCENTRIFUGE;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '30'
+- '1,260'
+- 99%
+- 99.0%
+- '1.'
+- '10.5'
+- TK-4516 Slop Oil Tank Aqueous
+- 'NO'
+- '4,718'
+- '0.05'
+- 1%
+- '0.81'
+- '1,543.33'
+- TK-4516 Slop Oil Tank
+- 'YES'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-OLDAPIS;WATER;PLANT1-4THLAGOON:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- 4th Lagoon
+- 'NO'
+- 'YES'
+- '360'
+- '15,120'
+- 99%
+- 99.0%
+- '1.'
+- <0.01
+- Stripped Sour Water
+- 'YES'
+- '56,617'
+- <0.01
+- 1%
+- '0.85'
+- '0.63'
+- Stripped Sour Water
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-GROUNDWATERBUILDINGFLOORRINSEDOWN;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '7'
+- '294'
+- 99%
+- 99.0%
+- '1.'
+- '1.69'
+- All Groundwater
+- 'NO'
+- '1,101'
+- <0.01
+- 1%
+- '0.78'
+- '5,350.'
+- Remediation Oil
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-OLDAPIS;SOLIDS;PLANT1-CENTRIFUGEMIXTANKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- TO
+- 'NO'
+- 'NO'
+- '6'
+- '252'
+- <10%
+- 10.0%
+- '1.'
+- <0.01
+- Stripped Sour Water
+- 'YES'
+- '95'
+- <0.01
+- 90%
+- '0.85'
+- '0.63'
+- Stripped Sour Water
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-3RDLAGOON;WATER;PLANT1-TANK774SUMP:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- Tank 774 Sump
+- 'NO'
+- 'YES'
+- '120'
+- '5,040'
+- 99%
+- 99.0%
+- '1.'
+- <0.01
+- Fourth Lagoon
+- 'YES'
+- '18,872'
+- <0.01
+- 1%
+- '0.85'
+- '0.63'
+- Fourth Lagoon
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANKSSECONDARYCONTAINMENTS-ENVIRONMENTAL;WASHWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '14'
+- '588'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '2,202'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK4508-DGF;SLUDGE;PLANT1-STORAGEFRACTANKSB5FLARE:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- Frac Tanks by Flare
+- 'NO'
+- 'NO'
+- '65'
+- '2,730'
+- <10%
+- 10.0%
+- '1.'
+- '3.95'
+- TK-4507 Waste Water Tank
+- 'YES'
+- '1,033'
+- <0.01
+- 90%
+- '0.85'
+- '573.33'
+- TK-4507 Waste Water Tank
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK4516;OIL;PLANT1-STORAGEFRACTANKSBYFLARE:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- Frac Tanks by Flare
+- 'NO'
+- 'NO'
+- '60'
+- '2,520'
+- <10%
+- 10.0%
+- '1.'
+- '10.5'
+- TK-4516 Slop Oil Tank Aqueous
+- 'NO'
+- '953'
+- '0.01'
+- 90%
+- '0.81'
+- '1,543.33'
+- TK-4516 Slop Oil Tank
+- 'YES'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-CENTRIFUGENONHAZMIXTANK;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '40'
+- '1,680'
+- 99%
+- 99.0%
+- '1.'
+- '10.5'
+- TK-4516 Slop Oil Tank Aqueous
+- 'NO'
+- '6,291'
+- '0.07'
+- 1%
+- '0.9'
+- '816.67'
+- TK-4516 Slop Oil Tank
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-OLDAPIS;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '20'
+- '840'
+- 99%
+- 99.9%
+- '1.'
+- <0.01
+- Stripped Sour Water
+- 'YES'
+- '3,174'
+- <0.01
+- 0%
+- '0.85'
+- '4,495.34'
+- Stripped Sour Water Oil
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANKSSECONDARYCONTAINMENTSATENVIRONMENTAL;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '30'
+- '1,260'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '4,718'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-SKIDANDCONCRETEPADCENTRIFUGE;OILYSTORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '25'
+- '1,050'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '3,932'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-SWITCHEDTONEWHOSESATCENTRIFUGE;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '5'
+- '210'
+- 99%
+- 99.0%
+- '1.'
+- '10.5'
+- TK-4516 Slop Oil Tank Aqueous
+- 'NO'
+- '786'
+- <0.01
+- 1%
+- '0.9'
+- '816.67'
+- TK-4516 Slop Oil Tank
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK26;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '20'
+- '840'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '3,145'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-OLDAPIS;SOLIDSANDWATER;PLANT1-CENTRIFUGEMIXTANKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- TO
+- 'NO'
+- 'NO'
+- '8'
+- '336'
+- 10-30%
+- 10.0%
+- '1.'
+- <0.01
+- Stripped Sour Water
+- 'YES'
+- '127'
+- <0.01
+- 90%
+- '0.85'
+- <0.01
+- Stripped Sour Water
+- 'YES'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK26/STORMWATER;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '30'
+- '1,260'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '4,718'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK28-STORMWATER;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '2'
+- '84'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '315'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-OLDAPIS;SOLIDSANDWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '10'
+- '420'
+- 99%
+- 99.0%
+- '1.'
+- <0.01
+- Stripped Sour Water
+- 'YES'
+- '1,573'
+- <0.01
+- 1%
+- '0.85'
+- <0.01
+- Stripped Sour Water
+- 'YES'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK4508-DGF;SLUDGE;PLANT1-CENTRIFUGEFRACTANKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- TO
+- 'NO'
+- 'NO'
+- '40'
+- '1,680'
+- <10%
+- 10.0%
+- '1.'
+- '3.95'
+- TK-4507 Waste Water Tank
+- 'YES'
+- '635'
+- <0.01
+- 90%
+- '0.85'
+- '573.33'
+- TK-4507 Waste Water Tank
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK4516-CONTAINMENT;SLUDGE;PLANT1-CENTRIFUGEFRACTANKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- TO
+- 'NO'
+- 'YES'
+- '130'
+- '5,460'
+- '>90%'
+- 10.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '2,065'
+- -0-
+- 90%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);HEADWORKS;SOLIDSANDWATER;PLANT1-CENTRIFUGEFRACTANKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '65'
+- '2,730'
+- 50-70%
+- 70.0%
+- '1.'
+- '0.2'
+- Slop Oil
+- 'NO'
+- '7,228'
+- <0.01
+- 30%
+- '0.96'
+- '36.82'
+- Slop Oil
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-4THLAGOON;WATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '65'
+- '2,730'
+- 99%
+- 99.0%
+- '1.'
+- <0.01
+- Fourth Lagoon
+- 'YES'
+- '10,222'
+- <0.01
+- 1%
+- '0.85'
+- <0.01
+- Fourth Lagoon
+- 'YES'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK4508-DGF;SLOPOIL;PLANT1-CENTRIFUGEFRACTANKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- TO
+- 'NO'
+- 'NO'
+- '130'
+- '5,460'
+- 10-30%
+- 10.0%
+- '1.'
+- '3.95'
+- TK-4507 Waste Water Tank
+- 'YES'
+- '2,065'
+- <0.01
+- 90%
+- '0.85'
+- '573.33'
+- TK-4507 Waste Water Tank
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-CENTRIFUGEMIXTANK;OILYSTORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '65'
+- '2,730'
+- 99%
+- 99.0%
+- '1.'
+- '10.5'
+- TK-4516 Slop Oil Tank Aqueous
+- 'NO'
+- '10,222'
+- '0.11'
+- 1%
+- '0.9'
+- '816.67'
+- TK-4516 Slop Oil Tank
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK60-OILDRAIN;SLOPOIL;PLANT1-CENTRIFUGEFRACTANKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '100'
+- '4,200'
+- 10-30%
+- 30.0%
+- '1.'
+- '3.52'
+- TK-60 Equalization Tank Aqueous
+- 'NO'
+- '4,766'
+- '0.02'
+- 70%
+- '0.85'
+- '1,230.'
+- TK-60 Equalization Tank
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-HEATEXCHANGERATCENTRIFUGE;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '7'
+- '294'
+- 99%
+- 99.0%
+- '1.'
+- '10.5'
+- TK-4516 Slop Oil Tank Aqueous
+- 'NO'
+- '1,101'
+- '0.01'
+- 1%
+- '0.9'
+- '816.67'
+- TK-4516 Slop Oil Tank
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-SKIDATCENTRIFUGE;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '10'
+- '420'
+- 99%
+- 99.0%
+- '1.'
+- '10.5'
+- TK-4516 Slop Oil Tank Aqueous
+- 'NO'
+- '1,573'
+- '0.02'
+- 1%
+- '0.81'
+- '1,543.33'
+- TK-4516 Slop Oil Tank
+- 'YES'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-CONCRETEPADATCENTRIFUGE;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '12'
+- '504'
+- 99%
+- 99.0%
+- '1.'
+- '10.5'
+- TK-4516 Slop Oil Tank Aqueous
+- 'NO'
+- '1,887'
+- '0.02'
+- 1%
+- '0.81'
+- '1,543.33'
+- TK-4516 Slop Oil Tank
+- 'YES'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-OLDAPIS;SLUDGE;PLANT1-CENTRIFUGEMIXTANKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- TO
+- 'NO'
+- 'NO'
+- '10'
+- '420'
+- <10%
+- 10.0%
+- '1.'
+- <0.01
+- Stripped Sour Water
+- 'YES'
+- '159'
+- <0.01
+- 90%
+- '0.85'
+- <0.01
+- Stripped Sour Water
+- 'YES'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-SKIDATCENTRIFUGE;SLUDGE;PLANT1-CENTRIFUGEMIXTANKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- TO
+- 'NO'
+- 'YES'
+- '25'
+- '1,050'
+- <10%
+- 10.0%
+- '1.'
+- '10.5'
+- TK-4516 Slop Oil Tank Aqueous
+- 'NO'
+- '397'
+- <0.01
+- 90%
+- '0.81'
+- '1,543.33'
+- TK-4516 Slop Oil Tank
+- 'YES'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-3RDLAGOON;WATER;PLANT1-SPIDERBOX:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- Spider Box
+- 'NO'
+- 'YES'
+- '160'
+- '6,720'
+- 99%
+- 99.0%
+- '1.'
+- <0.01
+- Fourth Lagoon
+- 'NO'
+- '25,163'
+- <0.01
+- 1%
+- '0.85'
+- '0.63'
+- Fourth Lagoon
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANKSSECONDARYCONTAINMENTSBYFLARE;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '30'
+- '1,260'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '4,718'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);SLUDGETANKATSUMITOMO;SLUDGE;PLANT1-TANK29:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- Tank 29
+- 'NO'
+- 'NO'
+- '50'
+- '2,100'
+- <10%
+- 10.0%
+- '1.'
+- '0.42'
+- sludge
+- 'NO'
+- '794'
+- <0.01
+- 90%
+- '0.96'
+- '42.'
+- sludge
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-OLDAPIS;SLUDGE;OLDAPIBAY-D.:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- OLD API
+- 'NO'
+- 'YES'
+- '420'
+- '17,640'
+- <10%
+- 10.0%
+- '1.'
+- <0.01
+- Stripped Sour Water
+- 'NO'
+- '6,672'
+- <0.01
+- 90%
+- '0.85'
+- '0.63'
+- Stripped Sour Water
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);DIESELTANKFORGENERATORATCENTRIFUGE;DIESEL;PLANT1-CENTRIFUGEGOODOILTANK:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- Centrifuge
+- 'NO'
+- 'NO'
+- '10'
+- '420'
+- <10%
+- 10.0%
+- '1.'
+- '0.02'
+- Diesel
+- 'NO'
+- '159'
+- <0.01
+- 90%
+- '0.86'
+- '2.'
+- Diesel
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANKSSECONDARYCONTAINMENT-ENVIRONMENTAL;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '40'
+- '1,680'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '6,291'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-STORAGEFRACTANKSBYFLARE;OIL;PLANT1-CENTRIFUGEMIXTANKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- TO
+- 'NO'
+- 'NO'
+- '130'
+- '5,460'
+- <10%
+- 10.0%
+- '1.'
+- '10.5'
+- TK-4516 Slop Oil Tank Aqueous
+- 'NO'
+- '2,065'
+- '0.02'
+- 90%
+- '0.81'
+- '1,543.33'
+- TK-4516 Slop Oil Tank
+- 'YES'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-OLDAPIS;SOLIDSANDWATER;PLANT1-4THLAGOON:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- 4th Lagoon
+- 'NO'
+- 'YES'
+- '180'
+- '7,560'
+- 99%
+- 99.0%
+- '1.'
+- <0.01
+- Stripped Sour Water
+- 'YES'
+- '28,308'
+- <0.01
+- 1%
+- '0.85'
+- '0.63'
+- Stripped Sour Water
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);WATERTANKSATSUMITOMO;SLUDGEANDWATER;PLANT1-TANK29:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- Tank 29
+- 'NO'
+- 'NO'
+- '7'
+- '294'
+- 30-50%
+- 30.0%
+- '1.'
+- '0.42'
+- sludge
+- 'NO'
+- '334'
+- <0.01
+- 70%
+- '0.96'
+- '42.'
+- sludge
+- 'NO'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);P1N-MONITORINGTRENCHESNORTHOFPOND/SWALE;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '15'
+- '630'
+- 99%
+- 99.0%
+- '1.'
+- '1.69'
+- All Groundwater
+- 'NO'
+- '2,359'
+- <0.01
+- 1%
+- '0.78'
+- '5,350.'
+- Remediation Oil
+- 'YES'
+PLANT1-UNIT045-WASTEWATERPLANT(WWTP);P1N?SUMPS/WELLS/TRENCHES(CLEANTRUCK);OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '3'
+- '126'
+- 99%
+- 99.0%
+- '1.'
+- '1.69'
+- All Groundwater
+- 'NO'
+- '472'
+- <0.01
+- 1%
+- '0.78'
+- '5,350.'
+- Remediation Oil
+- 'YES'
+PLANT1-UNIT074-SWS/#1SRU;PLANT1-SEWER;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '95'
+- '3,990'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '14,941'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1-UNIT145-GROUNDWATERREMEDIATION/WELLS;FRACNEXTTOSURGEBASIN;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '150'
+- '6,300'
+- 99%
+- 99.0%
+- '1.'
+- '1.69'
+- All Groundwater
+- 'NO'
+- '23,590'
+- '0.04'
+- 1%
+- '0.78'
+- '5,350.'
+- Remediation Oil
+- 'NO'
+PLANT1-UNIT145-GROUNDWATERREMEDIATION/WELLS;RPC1-RECOVERYTANK;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '2'
+- '84'
+- '>90%'
+- 99.0%
+- '1.'
+- '1.69'
+- All Groundwater
+- 'NO'
+- '315'
+- <0.01
+- 1%
+- '0.78'
+- '5,350.'
+- Remediation Oil
+- 'NO'
+PLANT1-UNIT145-GROUNDWATERREMEDIATION/WELLS;GWTSTANK10;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '4'
+- '168'
+- 99%
+- 90.0%
+- '1.'
+- '1.69'
+- All Groundwater
+- 'NO'
+- '572'
+- <0.01
+- 10%
+- '0.78'
+- '5,350.'
+- Remediation Oil
+- 'YES'
+PLANT1-UNIT145-GROUNDWATERREMEDIATION/WELLS;RPC1-RECOVERYTANK;GASOLINE;PLANT2-CRUDEOFFLOADINGDOCK-5.:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- Crude Docks
+- 'NO'
+- 'YES'
+- '8'
+- '336'
+- <10%
+- 90.0%
+- '1.'
+- '1.69'
+- All Groundwater
+- 'NO'
+- '1,144'
+- <0.01
+- 10%
+- '0.78'
+- '5,350.'
+- Remediation Oil
+- 'NO'
+PLANT1-UNIT145-GROUNDWATERREMEDIATION/WELLS;GWTSTANK10;GASOLINE;PLANT2-CRUDEOFFLOADINGDOCK-5:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- Crude Docks
+- 'NO'
+- 'NO'
+- '1'
+- '42'
+- <10%
+- 90.0%
+- '1.'
+- '1.69'
+- All Groundwater
+- 'NO'
+- '143'
+- <0.01
+- 10%
+- '0.78'
+- '5,350.'
+- Remediation Oil
+- 'YES'
+PLANT1-UNIT145-GROUNDWATERREMEDIATION/WELLS;PLANT1-SURGEBASIN;SOLIDSANDWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '10'
+- '420'
+- 99%
+- 99.0%
+- '1.'
+- '1.69'
+- All Groundwater
+- 'NO'
+- '1,573'
+- <0.01
+- 1%
+- '0.78'
+- '5,350.'
+- Remediation Oil
+- 'NO'
+PLANT1-UNIT145-GROUNDWATERREMEDIATION/WELLS;PLANT1-REDDRAGON;GROUNDWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '15'
+- '630'
+- 99%
+- 99.0%
+- '1.'
+- '1.69'
+- All Groundwater
+- 'NO'
+- '2,359'
+- <0.01
+- 1%
+- '0.78'
+- '5,350.'
+- Remediation Oil
+- 'YES'
+PLANT1-UNIT145-GROUNDWATERREMEDIATION/WELLS;GWTSTANK20;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '3'
+- '126'
+- 70-90%
+- 90.0%
+- '1.'
+- '1.69'
+- All Groundwater
+- 'NO'
+- '429'
+- <0.01
+- 10%
+- '0.78'
+- '5,350.'
+- Remediation Oil
+- 'YES'
+PLANT1-UNIT145-GROUNDWATERREMEDIATION/WELLS;GWTSWELLSDEVELOPMENTBYREDDRAGON;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '10'
+- '420'
+- 99%
+- 99%
+- '1.'
+- '1.69'
+- All Groundwater
+- 'NO'
+- '1,573'
+- <0.01
+- 1%
+- '0.78'
+- '5,350.'
+- Remediation Oil
+- 'YES'
+PLANT1-UNIT145-GROUNDWATERREMEDIATION/WELLS;GWTSWELLSBYREDDRAGON;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '5'
+- '210'
+- 99%
+- 99%
+- '1.'
+- '1.69'
+- All Groundwater
+- 'NO'
+- '786'
+- <0.01
+- 1%
+- '0.78'
+- '5,350.'
+- Remediation Oil
+- 'YES'
+PLANT1-UNIT145-GROUNDWATERREMEDIATION/WELLS;GWTS-WELLSDEVELOPMENTWESTOFOLDPOND;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '14'
+- '588'
+- 99%
+- 99%
+- '1.'
+- '1.69'
+- All Groundwater
+- 'NO'
+- '2,202'
+- <0.01
+- 1%
+- '0.78'
+- '5,350.'
+- Remediation Oil
+- 'yes'
+PLANT1-UNIT145-GROUNDWATERREMEDIATION/WELLS;P1N-MONITORINGTRENCHESNORTHOFPOND/SWALE;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '35'
+- '1,470'
+- 99%
+- 99.0%
+- '1.'
+- '1.69'
+- All Groundwater
+- 'NO'
+- '5,504'
+- <0.01
+- 1%
+- '0.78'
+- '5,350.'
+- Remediation Oil
+- 'YES'
+PLANT1-UNIT145-GROUNDWATERREMEDIATION/WELLS;P1N?SUMPS/WELLS/TRENCHES(CLEANTRUCK);OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '5'
+- '210'
+- 99%
+- 99.0%
+- '1.'
+- '1.69'
+- All Groundwater
+- 'NO'
+- '786'
+- <0.01
+- 1%
+- '0.78'
+- '5,350.'
+- Remediation Oil
+- 'YES'
+PLANT1-UNIT145-GROUNDWATERREMEDIATION/WELLS;P1N-SWALENORTHANDEASTOFPOND.;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '30'
+- '1,260'
+- 99%
+- 99.0%
+- '1.'
+- '1.69'
+- All Groundwater
+- 'NO'
+- '4,718'
+- <0.01
+- 1%
+- '0.78'
+- '5,350.'
+- Remediation Oil
+- 'YES'
+PLANT1-UNIT145-GROUNDWATERREMEDIATION/WELLS;PLANT1-SURGEBASIN;SLUDGE;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '20'
+- '840'
+- '>90%'
+- 99.0%
+- '1.'
+- '1.69'
+- All Groundwater
+- 'NO'
+- '3,145'
+- <0.01
+- 1%
+- '0.78'
+- '5,350.'
+- Remediation Oil
+- 'NO'
+PLANT1-UNIT145-GROUNDWATERREMEDIATION/WELLS;GWTSTANKS6,7,8,9,13,14,15;GASOLINEANDWATER;PLANT1-CENTRIFUGEMIXTANKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- TO
+- 'NO'
+- 'YES'
+- '18'
+- '756'
+- 70-90%
+- 90.0%
+- '1.'
+- '1.57'
+- All Groundwater
+- 'YES'
+- '2,573'
+- <0.01
+- 10%
+- '0.78'
+- '5,350.'
+- Remediation Oil
+- 'NO'
+PLANT1-UNITV41-VAPORRECOVERY;PLANT1-C17COMPRESSOR;LUBEOIL;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '3'
+- '126'
+- <10%
+- 10.0%
+- '1.'
+- '2.5'
+- C17 Lube Oil
+- 'NO'
+- '48'
+- <0.01
+- 90%
+- '0.86'
+- '250.'
+- C17 Lube Oil
+- 'NO'
+PLANT1BOREPIT;BOREPIT;WASHWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '20'
+- '840'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '3,145'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT1OFFLOADDOCK;ETHANOLOFFLOADING;OILYSTORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '25'
+- '1,050'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Ethanol
+- 'NO'
+- '3,932'
+- -0-
+- 1%
+- '0.79'
+- -0-
+- Ethanol
+- 'NO'
+PLANT2;JOHNSONSRESERVOIR;WATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '130'
+- '5,460'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '20,445'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT2;TANK20;SLUDGE;PLANT1-CENTRIFUGEFRACTANKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- TO
+- 'NO'
+- 'NO'
+- '130'
+- '5,460'
+- <10%
+- 10.0%
+- '1.'
+- '46.1'
+- Tank 20 Water Draw
+- 'NO'
+- '2,065'
+- '0.1'
+- 90%
+- '0.85'
+- '5,762.5'
+- Tank 20 Water Draw
+- 'NO'
+PLANT2;LOWERAPIS;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '300'
+- '12,600'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '47,181'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT2-STORMWATER;PLANT2-STORMWATER;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '10'
+- '420'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '1,573'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT2-UNIT001-#2CRUDE;PLANT2-CRUDEDOCKSSUMPANDDOCKS5AND6CONTAINMENT;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '10'
+- '420'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '1,573'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT2-UNIT004-#2REFORMER/NDS/ARU;PLANT2-ATLASCOPCOFUELCELL;DIESEL;PLANT2-TANK6:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- Tank 6
+- 'NO'
+- 'NO'
+- '15'
+- '630'
+- <10%
+- 10.0%
+- '1.'
+- '0.02'
+- Diesel
+- 'NO'
+- '238'
+- <0.01
+- 90%
+- '0.86'
+- '2.'
+- Diesel
+- 'NO'
+PLANT2-UNIT007-SULFURRECOVERYUNIT;PLANT2-SRU-STORMWATER;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '15'
+- '630'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '2,359'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT2-UNIT070-WASTEWATER;PLANT2-TANK29-OILDRAIN;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'YES'
+- 'NO'
+- '90'
+- '3,780'
+- 99%
+- 99.0%
+- '1.'
+- '0.34'
+- Tank 29 Aqueous
+- 'YES'
+- '14,154'
+- <0.01
+- 1%
+- '1.85'
+- '1,220.'
+- Tank 29 Oil
+- 'YES'
+PLANT2-UNIT070-WASTEWATER;PLANT2-TANK29-OILDRAIN;OIL;PLANT2-INSIDECRUDEDOCKSBAY5:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- Crude Docks
+- 'YES'
+- 'NO'
+- '30'
+- '1,260'
+- <10%
+- 10.0%
+- '1.'
+- '0.34'
+- Tank 29 Aqueous
+- 'YES'
+- '477'
+- <0.01
+- 90%
+- '1.85'
+- '1,220.'
+- Tank 29 Oil
+- 'YES'
+PLANT2-UNIT070-WASTEWATER;PLANT2-TANK29-OILDRAIN;OIL;PLANT2-CRUDEDOCKSBAY5:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- Crude Docks
+- 'YES'
+- 'NO'
+- '15'
+- '630'
+- <10%
+- 10.0%
+- '1.'
+- '0.34'
+- Tank 29 Aqueous
+- 'YES'
+- '238'
+- <0.01
+- 90%
+- '1.85'
+- '1,220.'
+- Tank 29 Oil
+- 'YES'
+PLANT2-UNIT070-WASTEWATER;PLANT2LAPI;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '15'
+- '630'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '2,359'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT2-UNIT070-WASTEWATER;PLANT2-LAPI;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '60'
+- '2,520'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '9,436'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT2-UNIT070-WASTEWATER;PLANT2-TANK29-OILDRAIN;OIL;PLANT2-CRUDEUNLOADINGBAY5:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- Crude Docks
+- 'YES'
+- 'NO'
+- '10'
+- '420'
+- <10%
+- 10.0%
+- '1.'
+- '0.34'
+- Tank 29 Aqueous
+- 'YES'
+- '159'
+- <0.01
+- 90%
+- '1.85'
+- '1,220.'
+- Tank 29 Oil
+- 'YES'
+PLANT2-UNIT070-WASTEWATER;PLANT2-LOWERAPI;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '4'
+- '168'
+- '>90%'
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '629'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT2-UNIT070-WASTEWATER;PLANT2-TANK29-OILDRAIN;OIL;INSIDECRUDEDOCKBAY5:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- Crude Docks
+- 'YES'
+- 'NO'
+- '20'
+- '840'
+- <10%
+- 10.0%
+- '1.'
+- '0.34'
+- Tank 29 Aqueous
+- 'YES'
+- '318'
+- <0.01
+- 90%
+- '1.85'
+- '1,220.'
+- Tank 29 Oil
+- 'YES'
+PLANT2-UNIT070-WASTEWATER;PLANT2-TANK29-OILDRAIN;OIL;PLANT2-CRUDEUNLOADINGDOCKSBAY5:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- Crude Docks
+- 'YES'
+- 'NO'
+- '15'
+- '630'
+- <10%
+- 10.0%
+- '1.'
+- '0.34'
+- Tank 29 Aqueous
+- 'YES'
+- '238'
+- <0.01
+- 90%
+- '1.85'
+- '1,220.'
+- Tank 29 Oil
+- 'YES'
+PLANT2-UNIT070-WASTEWATER;PLANT2-LAPI;OILYSTORMWATER;PLANT2-TANK29:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '300'
+- '12,600'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '47,181'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT2-UNIT070-WASTEWATER;PLANT2-TANK29-OILDRAIN;OIL;PLANT2-CRUDEUNLOADING:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- Crude Docks
+- 'YES'
+- 'NO'
+- '30'
+- '1,260'
+- <10%
+- 10.0%
+- '1.'
+- '0.34'
+- Tank 29 Aqueous
+- 'YES'
+- '477'
+- <0.01
+- 90%
+- '1.85'
+- '1,220.'
+- Tank 29 Oil
+- 'YES'
+PLANT2-UNIT210-#2OMDTANKFARM;PLANT2-OLDCRUDELINEWATERWASH;WASHWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '45'
+- '1,890'
+- 99%
+- 99.0%
+- '1.'
+- '24.'
+- crude
+- 'NO'
+- '7,077'
+- '0.17'
+- 1%
+- '0.79'
+- '2,400.'
+- crude
+- 'NO'
+PLANT2-UNIT210-#2OMDTANKFARM;PLANT2-LPGETHANOLDRUMS;ETHANOL;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '1'
+- '42'
+- <10%
+- 10.0%
+- '1.'
+- -0-
+- Ethanol
+- 'NO'
+- '16'
+- -0-
+- 90%
+- '0.79'
+- -0-
+- Ethanol
+- 'NO'
+PLANT2-UNIT210-#2OMDTANKFARM;PLANT2-FRACTANKATTANK20;SOLIDS;PLANT1-CENTRIFUGEMIXTANKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- TO
+- 'NO'
+- 'NO'
+- '60'
+- '2,520'
+- <10%
+- 10.0%
+- '1.'
+- '46.1'
+- Tank 20 Water Draw
+- 'NO'
+- '953'
+- '0.04'
+- 90%
+- '0.85'
+- '5,762.5'
+- Tank 20 Water Draw
+- 'NO'
+PLANT2-UNIT210-#2OMDTANKFARM;PLANT2-TANK10,40,41LINEBLINDING;GASOLINE;PLANT2-TANK6:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- Tank 6
+- 'NO'
+- 'NO'
+- '10'
+- '420'
+- <10%
+- 10.0%
+- '1.'
+- '360.'
+- gasoline
+- 'NO'
+- '159'
+- '0.06'
+- 90%
+- '0.77'
+- '36,000.'
+- gasoline
+- 'NO'
+PLANT2-UNIT210-#2OMDTANKFARM;PLANT2-TANK10,40,41LINEBLINDING;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- VAC PAD
+- 'NO'
+- 'NO'
+- '37'
+- '1,554'
+- 99%
+- 99.0%
+- '1.'
+- '360.'
+- gasoline
+- 'NO'
+- '5,819'
+- '2.09'
+- 1%
+- '0.77'
+- '36,000.'
+- gasoline
+- 'NO'
+PLANT2-UNIT210-#2OMDTANKFARM;TANK10AREA;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '90'
+- '3,780'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '14,154'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT2-UNIT210-#2OMDTANKFARM;PLANT2-STORMWATER;STORMWATER;PLANT2-STORMWATERPONDS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '428'
+- '17,976'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '67,311'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT2-UNIT210-#2OMDTANKFARM;PLANT2-TANK79-CONTAINMENT;OILYSTORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '30'
+- '1,260'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '4,718'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT2-UNIT210-#2OMDTANKFARM;PLANT2-TANK79CONTAINMENT;OILYSTORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '540'
+- '22,680'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '84,925'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT2-UNIT210-#2OMDTANKFARM;PLANT2-JETFILTERS;JETFUEL;CRUDEDOCKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- Crude Docks
+- 'NO'
+- 'NO'
+- '2'
+- '84'
+- 99%
+- 99.0%
+- '1.'
+- '0.6'
+- Jet
+- 'NO'
+- '315'
+- <0.01
+- 1%
+- '0.79'
+- '60.'
+- Jet
+- 'NO'
+PLANT2-UNIT210-#2OMDTANKFARM;TK29;OIL;CRUDEDOCKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- Crude Docks
+- 'YES'
+- 'NO'
+- '55'
+- '2,310'
+- 99%
+- 99.0%
+- '1.'
+- '0.34'
+- Tank 29 Aqueous
+- 'YES'
+- '8,650'
+- <0.01
+- 1%
+- '1.85'
+- '1,220.'
+- Tank 29 Oil
+- 'YES'
+PLANT2-UNIT210-#2OMDTANKFARM;TK29;WATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'YES'
+- 'NO'
+- '200'
+- '8,400'
+- 99%
+- 99.0%
+- '1.'
+- '0.34'
+- Tank 29 Aqueous
+- 'YES'
+- '31,454'
+- '0.01'
+- 1%
+- '1.85'
+- '1,220.'
+- Tank 29 Oil
+- 'YES'
+PLANT2-UNIT210-#2OMDTANKFARM;PLANT2-TANK29;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'YES'
+- 'NO'
+- '45'
+- '1,890'
+- 99%
+- 99.0%
+- '1.'
+- '0.34'
+- Tank 29 Aqueous
+- 'YES'
+- '7,077'
+- <0.01
+- 1%
+- '1.85'
+- '1,220.'
+- Tank 29 Oil
+- 'YES'
+PLANT2-UNIT410-#2OMDLOADINGRACKS;PLANT2-CRUDEDOCKSSUMP;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '2'
+- '84'
+- '>90%'
+- 99.0%
+- '1.'
+- '24.'
+- Crude
+- 'NO'
+- '315'
+- <0.01
+- 1%
+- '0.79'
+- '2,400.'
+- Crude
+- 'NO'
+PLANT2-UNIT410-#2OMDLOADINGRACKS;PLANT2-LOADINGBAYS;DIESELANDGAS;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '0.25'
+- '11'
+- <10%
+- 10.0%
+- '1.'
+- '360.'
+- Gasoline
+- 'NO'
+- '4'
+- <0.01
+- 90%
+- '0.77'
+- '36,000.'
+- Gasoline
+- 'NO'
+PLANT2-UNIT410-#2OMDLOADINGRACKS;PLANT2-LAPI;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '5'
+- '210'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '786'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT2-UNIT410-#2OMDLOADINGRACKS;PLANT2-LOADINGBAYS;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '1'
+- '42'
+- 99%
+- 99.0%
+- '1.'
+- '360.'
+- Gasoline
+- 'NO'
+- '157'
+- '0.06'
+- 1%
+- '0.77'
+- '36,000.'
+- Gasoline
+- 'NO'
+PLANT2-UNIT410-#2OMDLOADINGRACKS;PLANT2-LPGAREA;WASHWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '9'
+- '378'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Ethanol
+- 'NO'
+- '1,415'
+- -0-
+- 1%
+- '0.79'
+- -0-
+- Ethanol
+- 'NO'
+PLANT2-UNIT410-#2OMDLOADINGRACKS;PLANT2-LOADINGBAYS1,2,3,4;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '1'
+- '42'
+- 99%
+- 99.0%
+- '1.'
+- '360.'
+- Gasoline
+- 'NO'
+- '157'
+- '0.06'
+- 1%
+- '0.77'
+- '36,000.'
+- Gasoline
+- 'NO'
+PLANT2LOWERAPIS;LOWERAPIS;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '40'
+- '1,680'
+- '>90%'
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '6,291'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT2LOWERAPIS;LOWERAPIS;DIESELWATERCRUDE;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '10'
+- '420'
+- '>90%'
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '1,573'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT3;PLANT3-AUGASOILPAD;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '4'
+- '168'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '629'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT3;PLANT3-AUSCALEHOUSE-STORMWATER;WATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '5'
+- '210'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '786'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT3;PLANT3-CPICONTAINMENT;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '40'
+- '1,680'
+- '>90%'
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '6,291'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT3-STORMWATER;PLANT3-AUGASOILPADPUMPCONTAINMENT;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '3'
+- '126'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '472'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT3-STORMWATER;PLANT3-SEWER;STORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '25'
+- '1,050'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '3,932'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT3-STORMWATER;PLANT3-VAPORBBLS;OILYSTORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'No'
+- 'YES'
+- '5'
+- '210'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'no'
+- '786'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'no'
+PLANT3-STORMWATER;PLANT3-TANK144-SUMP;OILYSTORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '5'
+- '210'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '786'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT3-STORMWATER;PLANT3-CPICONTAINMENT;OILYSTORMWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '115'
+- '4,830'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '18,086'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT3-UNIT019-ASPHALTMATERIAL;PLANT3-AUFRACTANKS;OIL;PLANT1-CENTRIFUGEGOODOILTANK:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'YES'
+- TO
+- 'NO'
+- 'NO'
+- '40'
+- '1,680'
+- <10%
+- 10.0%
+- '1.'
+- '10.5'
+- TK-4516 Slop Oil Tank Aqueous
+- 'NO'
+- '635'
+- <0.01
+- 90%
+- '0.9'
+- '816.67'
+- TK-4516 Slop Oil Tank
+- 'NO'
+PLANT3-UNIT019-ASPHALTMATERIAL;TANKSANDPUMPCONTAINMENT;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '30'
+- '1,260'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '4,718'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+PLANT3-WASHPAD;PLANT3-WASHPAD;OILYWATER;PLANT1-VACPAD:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- VAC PAD
+- 'NO'
+- 'YES'
+- '100'
+- '4,200'
+- 99%
+- 99.0%
+- '1.'
+- -0-
+- Stormwater
+- 'NO'
+- '15,727'
+- -0-
+- 1%
+- '0.85'
+- '0.03'
+- Stormwater
+- 'NO'
+SUNCORWESTTERMINAL;6000GTANK;DIESELANDGAS;PLANT2DOCKS:
+- 
+- 
+- 
+- 
+- 
+- 
+- 'NO'
+- P2 Docks
+- 'YES'
+- 'NO'
+- '30'
+- '1,260'
+- <10%
+- 10.0%
+- '1.'
+- '23.65'
+- Denver Truck Terminal Aqueous
+- 'YES'
+- '477'
+- '0.01'
+- 90%
+- '0.78'
+- '7,933.33'
+- Denver Truck Terminal Oil
+- 'YES'
 METRO;METRO-WESTOFTHEDITCHFRACTANKSSECUNDARYCONTAINTMENTS;STORMWATER;PLANT1-TANK776:
 - 
 - 
@@ -20071,32 +27065,6 @@ CRUDEDOCKSUNLOADING;CRUDEDOCKSSPILL;OIL;PLANT1-CENTRIFUGEMIXTANKS:
 - '2,400'
 - Crude
 - 'NO'
-PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-4THLAGOON;WATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '195'
-- '8,190'
-- 99%
-- 99.0%
-- '1'
-- <0.01
-- Fourth Lagoon
-- 'YES'
-- '30,667'
-- <0.01
-- 1%
-- '0.85'
-- <0.01
-- Fourth Lagoon
-- 'YES'
 PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK335-CONTAINMENT;WATER;PLANT1-VACPAD:
 - 
 - 
@@ -20253,32 +27221,6 @@ PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-1STLAGOON;WATER;PLANT1P-531DISCHARGE
 - '1.21'
 - Fourth Lagoon
 - 'NO'
-PLANT1-STORMWATER;PLANT1-TANK2007-CONTAINMENT;STORMWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '25'
-- '1,050'
-- 99%
-- 99.0%
-- '1'
-- <0.01
-- Stormwater
-- 'NO'
-- '3,932'
-- <0.01
-- 1%
-- '0.85'
-- '0.03'
-- Stormwater
-- 'NO'
 PLANT1-STORMWATER;PLANT1-DRUMD-3924PUMPCONTAINMENT;STORMWATER;PLANT1-VACPAD:
 - 
 - 
@@ -20383,84 +27325,6 @@ METRO;METRO-WESTOFTHEDITCH;STORMWATER;PLANT1-VACPAD:
 - '10,726.67'
 - Remediation Oil
 - 'YES'
-DENVERTRUCKTERMINAL;DENVERTERMINAL-VAPORSUMP;OILYWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '2'
-- '84'
-- '>90%'
-- 90.0%
-- '1'
-- '23.63'
-- Denver Truck Terminal Aqueous
-- 'YES'
-- '286'
-- <0.01
-- 10%
-- '0.78'
-- '5,036.67'
-- Denver Truck Terminal Oil
-- 'YES'
-PLANT1-STORMWATER;PLANT1-TANK52-PUMPCONTAINMENT;STORMWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '4'
-- '168'
-- 99%
-- 99.0%
-- '1'
-- <0.01
-- Stormwater
-- 'NO'
-- '629'
-- <0.01
-- 1%
-- '0.85'
-- '0.03'
-- Stormwater
-- 'NO'
-PLANT1-STORMWATER;PLANT1-TANK3801-PUMPCONTAINMENT;STORMWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '5'
-- '210'
-- 99%
-- 99.0%
-- '1'
-- <0.01
-- Stormwater
-- 'NO'
-- '786'
-- <0.01
-- 1%
-- '0.85'
-- '0.03'
-- Stormwater
-- 'NO'
 PLANT1-STORMWATER;PLANT1-TANK776-PUMPCONTAINMENT;STORMWATER;PLANT1-VACPAD:
 - 
 - 
@@ -20539,32 +27403,6 @@ REPUBLICPAPERCOMPANY;TK-RPC1;GASOLINE;PLANT2-TANK20:
 - '10,726.67'
 - Remediation Oil
 - 'YES'
-PLANT1-STORMWATER;PLANT1-CHEMWAREHOUSECONTAINMENT-STORMWATER;STORMWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '35'
-- '1,470'
-- 99%
-- 99.0%
-- '1'
-- <0.01
-- Stormwater
-- 'NO'
-- '5,504'
-- <0.01
-- 1%
-- '0.85'
-- '0.03'
-- Stormwater
-- 'NO'
 PLANT3-UNIT032-ASPHALTBLENDINGANDLOADING;PLANT3-CPI;OILYWATER;PLANT1-VACPAD:
 - 
 - 
@@ -20876,32 +27714,6 @@ PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-FLARESUMP;WATER;PLANT1-VACPAD:
 - '0.73'
 - '3,150'
 - Knockout Water, Fuel Gas (Hydrocraker)
-- 'NO'
-PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-TANK775-CONTAINMENT/ROOFDRAIN;OILYWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '60'
-- '2,520'
-- '>90%'
-- 99.0%
-- '1'
-- <0.01
-- Stormwater
-- 'NO'
-- '9,436'
-- <0.01
-- 1%
-- '0.85'
-- '0.03'
-- Stormwater
 - 'NO'
 PLANT1-NORTHOFTHEFENCELINE;GWTSTANK4;OIL;PLANT2-TANK20:
 - 
@@ -21371,32 +28183,6 @@ PLANT2-UNIT210-#2OMDTANKFARM;PLANT2-TANK58-WATERDRAW;OILYWATER/FOAM;PLANT2-FRACT
 - '2,812.5'
 - TK-58 Aqueous
 - 'NO'
-PLANT1-STORMWATER;PLANT1-PUMPP-803-AREA;STORMWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '5'
-- '210'
-- 99%
-- 99.0%
-- '1'
-- <0.01
-- Stormwater
-- 'NO'
-- '786'
-- <0.01
-- 1%
-- '0.85'
-- '0.03'
-- Stormwater
-- 'NO'
 PLANT1-NORTHOFTHEFENCELINE;METRO-TANKSC(BANKSOFSANDCREEK);OILYWATER;PLANT1-VACPAD:
 - 
 - 
@@ -21527,32 +28313,6 @@ PLANT1-NORTHOFTHEFENCELINE;P1N-TANK29(CLEANTRUCK);SLOPOIL;PLANT2-TANK20:
 - '10,726.67'
 - Remediation Oil
 - 'YES'
-PLANT1-STORMWATER;PLANT1-FLUXLOADINGRACK;STORMWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '10'
-- '420'
-- 99%
-- 99.0%
-- '1'
-- <0.01
-- Stormwater
-- 'NO'
-- '1,573'
-- <0.01
-- 1%
-- '0.85'
-- '0.03'
-- Stormwater
-- 'NO'
 PLANT2-UNIT210-#2OMDTANKFARM;PLANT2-TANK26-WATERDRAW;OILYWATER;FRACTANKS@OMD2:
 - 
 - 
@@ -24361,32 +31121,6 @@ PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK4514,4515,4516,CAUSTICTK.CONTAIN
 - '0.03'
 - Stormwater
 - 'NO'
-PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-1STLAGOON;OILYWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '6'
-- '252'
-- 99%
-- 99.0%
-- '1'
-- <0.01
-- Fourth Lagoon
-- 'NO'
-- '944'
-- <0.01
-- 1%
-- '0.85'
-- '1.21'
-- Fourth Lagoon
-- 'NO'
 PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANKS4517,4518-CONTAINMENT;STORMWATER;PLANT1-VACPAD:
 - 
 - 
@@ -24407,58 +31141,6 @@ PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANKS4517,4518-CONTAINMENT;STORMWATE
 - Stormwater
 - 'NO'
 - '17,300'
-- <0.01
-- 1%
-- '0.85'
-- '0.03'
-- Stormwater
-- 'NO'
-CRUDEDOCKSUNLOADING;CRUDEDOCKS-UNDERGROUNDTANK-TANK101;OILYSTORMWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'YES'
-- 'NO'
-- '60'
-- '2,520'
-- 99%
-- 99.0%
-- '1'
-- '12.23'
-- T-101 Underground Storage Tank Aqueous
-- 'YES'
-- '9,436'
-- '0.12'
-- 1%
-- '0.86'
-- '1,144.29'
-- T-101 Underground Storage Tank Oil
-- 'NO'
-PLANT1-STORMWATER;PLANT1-DRUMD-385AREA;STORMWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '15'
-- '630'
-- 99%
-- 99.0%
-- '1'
-- <0.01
-- Stormwater
-- 'NO'
-- '2,359'
 - <0.01
 - 1%
 - '0.85'
@@ -24543,32 +31225,6 @@ PLANT1-STORMWATER;DENVERTERMINAL-6000GALSLOPTANK;OILYSTORMWATER;PLANT1-VACPAD:
 - '5,036.67'
 - Denver Truck Terminal Oil
 - 'YES'
-PLANT1-STORMWATER;PLANT1-CRUDEUNLOADINGSUMP;OILYSTORMWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '30'
-- '1,260'
-- 99%
-- 90.0%
-- '1'
-- '24'
-- Crude
-- 'NO'
-- '4,289'
-- '0.1'
-- 10%
-- '0.79'
-- '2,400'
-- Crude
-- 'NO'
 PLANT1-STORMWATER;PLANT1-NELSONBLDG;STORMWATER;PLANT1-VACPAD:
 - 
 - 
@@ -24589,32 +31245,6 @@ PLANT1-STORMWATER;PLANT1-NELSONBLDG;STORMWATER;PLANT1-VACPAD:
 - Stormwater
 - 'NO'
 - '17,300'
-- <0.01
-- 1%
-- '0.85'
-- '0.03'
-- Stormwater
-- 'NO'
-PLANT1-STORMWATER;PLANT1-TANK86/87CONTAINMENT;STORMWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '260'
-- '10,920'
-- 99%
-- 99.0%
-- '1'
-- <0.01
-- Stormwater
-- 'NO'
-- '40,890'
 - <0.01
 - 1%
 - '0.85'
@@ -24777,32 +31407,6 @@ PLANT1-STORMWATER;PLANT1-TANK72-SUMP;OILYSTORMWATER;PLANT1-VACPAD:
 - '0.03'
 - Stormwater
 - 'NO'
-PLANT1-STORMWATER;PLANT1-TANK96/97-SUMP;OILYSTORMWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '50'
-- '2,100'
-- '>90%'
-- 99.0%
-- '1'
-- <0.01
-- Stormwater
-- 'NO'
-- '7,863'
-- <0.01
-- 1%
-- '0.85'
-- '0.03'
-- Stormwater
-- 'NO'
 PLANT1-STORMWATER;PLANT1-TANK2004/2007-PUMPCONTAINMENT;STORMWATER;PLANT1-VACPAD:
 - 
 - 
@@ -24875,58 +31479,6 @@ PLANT1-STORMWATER;PLANT1-D3924CONTAINMENT;STORMWATER;PLANT1-VACPAD:
 - Stormwater
 - 'NO'
 - '12,581'
-- <0.01
-- 1%
-- '0.85'
-- '0.03'
-- Stormwater
-- 'NO'
-PLANT1-STORMWATER;PLANT1-TANK72-PUMPCONTAINMENT;STORMWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '40'
-- '1,680'
-- 99%
-- 99.0%
-- '1'
-- <0.01
-- Stormwater
-- 'NO'
-- '6,291'
-- <0.01
-- 1%
-- '0.85'
-- '0.03'
-- Stormwater
-- 'NO'
-PLANT1-STORMWATER;PLANT1-TANK70-PUMPCONTAINMENT;STORMWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '20'
-- '840'
-- 99%
-- 99.0%
-- '1'
-- <0.01
-- Stormwater
-- 'NO'
-- '3,145'
 - <0.01
 - 1%
 - '0.85'
@@ -25089,58 +31641,6 @@ PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-CENTRIFUGEFRACTANK;OIL;PLANT1-CENTRI
 - '1,800'
 - TK-4516 Slop Oil Tank
 - 'YES'
-PLANT1-STORMWATER;PLANT1-DRUMD-196CONTAINMENT-STORMWATER;STORMWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '50'
-- '2,100'
-- 99%
-- 99.0%
-- '1'
-- <0.01
-- Stormwater
-- 'NO'
-- '7,863'
-- <0.01
-- 1%
-- '0.85'
-- '0.03'
-- Stormwater
-- 'NO'
-PLANT1-STORMWATER;PLANT1-DRUMD-3924CONTAINMENT-STORMWATER;STORMWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '35'
-- '1,470'
-- 99%
-- 99.0%
-- '1'
-- <0.01
-- Stormwater
-- 'NO'
-- '5,504'
-- <0.01
-- 1%
-- '0.85'
-- '0.03'
-- Stormwater
-- 'NO'
 PLANT1-NELSONBLDGMECHSHOP;PLANT1-MECHSHOP;DIESEL;PLANT1-TANK58:
 - 
 - 
@@ -25167,32 +31667,6 @@ PLANT1-NELSONBLDGMECHSHOP;PLANT1-MECHSHOP;DIESEL;PLANT1-TANK58:
 - '2'
 - Diesel
 - 'NO'
-PLANT1-STORMWATER;PLANT1-BOREPIT;STORMWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '195'
-- '8,190'
-- 99%
-- 99.0%
-- '1'
-- <0.01
-- Stormwater
-- 'NO'
-- '30,667'
-- <0.01
-- 1%
-- '0.85'
-- '0.03'
-- Stormwater
-- ''
 PLANT1-STORMWATER;PLANT1-TANK64/65/66-SUMP;OILYSTORMWATER;PLANT1-VACPAD:
 - 
 - 
@@ -25218,32 +31692,6 @@ PLANT1-STORMWATER;PLANT1-TANK64/65/66-SUMP;OILYSTORMWATER;PLANT1-VACPAD:
 - '0.85'
 - '0.03'
 - Stormwater
-- 'NO'
-PLANT1-STORMWATER;PLANT1-SPIDERBOXOMD;OILYSTORMWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'YES'
-- VAC PAD
-- 'NO'
-- 'NO'
-- '125'
-- '5,250'
-- '>90%'
-- 90.0%
-- '1'
-- '4.42'
-- Spider Sump, Aqueous Layer
-- 'NO'
-- '17,871'
-- '0.08'
-- 10%
-- '0.8'
-- '2,152.08'
-- Spider Sump, Oil Layer
 - 'NO'
 PLANT3-STORMWATER;PLANT3-VAPORBBLS;OILYWATER;PLANT1-VACPAD:
 - 
@@ -25375,58 +31823,6 @@ PLANT3-UNIT032-ASPHALTBLENDINGANDLOADING;PLANT3-L82;OIL;PLANT1-VACPAD:
 - '0.19'
 - Crude, Reduced (Asphalt)
 - 'NO'
-PLANT3-STORMWATER;PLANT3-AUGASOILPADPUMPCONTAINMENT;STORMWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '40'
-- '1,680'
-- 99%
-- 99.0%
-- '1'
-- <0.01
-- Stormwater
-- 'NO'
-- '6,291'
-- <0.01
-- 1%
-- '0.85'
-- '0.03'
-- Stormwater
-- 'NO'
-PLANT1-STORMWATER;PLANT1-SEWEROMD1;STORMWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '45'
-- '1,890'
-- 99%
-- 99.0%
-- '1'
-- <0.01
-- Stormwater
-- 'NO'
-- '7,077'
-- <0.01
-- 1%
-- '0.85'
-- '0.03'
-- Stormwater
-- 'NO'
 PLANT3-STORMWATER;PLANT3-AUGASOILUNLOADINGRACK;OILYSTORMWATER;PLANT1-VACPAD:
 - 
 - 
@@ -25531,58 +31927,6 @@ PLANT1-UNIT145-GROUNDWATERREMEDIATION/WELLS;SOUTHANDNORTHVAULTSGROUNDWATER;OILYW
 - '10,726.67'
 - Remediation Oil
 - 'NO'
-PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK27-WATERDRAW;WATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '20'
-- '840'
-- 99%
-- 99.0%
-- '1'
-- '4.17'
-- sludge processing
-- 'NO'
-- '3,145'
-- '0.01'
-- 1%
-- '1.07'
-- '417'
-- sludge processing
-- 'NO'
-PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK4513-WATERDRAW;WATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '40'
-- '1,680'
-- 99%
-- 99.0%
-- '1'
-- '4.17'
-- sludge processing
-- 'NO'
-- '6,291'
-- '0.03'
-- 1%
-- '1.07'
-- '417'
-- sludge processing
-- 'NO'
 PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK27-SLUDGE;SLUDGE;PLANT1-CENTRIFUGEFRACTANKS:
 - 
 - 
@@ -25608,32 +31952,6 @@ PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK27-SLUDGE;SLUDGE;PLANT1-CENTRIFU
 - '1.07'
 - '417'
 - sludge processing
-- 'NO'
-PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-TANK77-WATERDRAW;CAUSTICANDWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'YES'
-- VAC PAD
-- 'NO'
-- 'NO'
-- '10'
-- '420'
-- '>90%'
-- 95.5%
-- '1'
-- '360'
-- Gasoline
-- 'NO'
-- '1,517'
-- '0.55'
-- 5%
-- '0.77'
-- '36,000'
-- Gasoline
 - 'NO'
 METRO;METROTRENCHES;STORMWATER;PLANT1-VACPAD:
 - 
@@ -26571,32 +32889,6 @@ PLANT1-NORTHOFTHEFENCELINE;PLANT1-NORTHOFTHEFENCELINE;GROUNDWATER;PLANT1-VACPAD:
 - '10,726.67'
 - Remediation Oil
 - 'YES'
-PLANT1-STORMWATER;PLANT1-TANK3801-CONTAINMENT;STORMWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '130'
-- '5,460'
-- 99%
-- 99.0%
-- '1'
-- <0.01
-- Stormwater
-- 'NO'
-- '20,445'
-- <0.01
-- 1%
-- '0.85'
-- '0.03'
-- Stormwater
-- 'NO'
 PLANT3-STORMWATER;PLANT3-FRACTANKS;STORMWATER;PLANT1-VACPAD:
 - 
 - 
@@ -28027,32 +34319,6 @@ PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-DRUMD-322CONTAINMENT-STORMWATER/WATER;OILYST
 - '0.03'
 - Stormwater
 - 'NO'
-PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-FLARESUMP;OILYWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '25'
-- '1050'
-- '>90%'
-- 90.00%
-- '1'
-- '4.03'
-- Knockout Water, Fuel Gas (Hydrocraker)
-- 'NO'
-- '3574'
-- '0.01'
-- 10%
-- '0.73'
-- '3150'
-- Knockout Water, Fuel Gas (Hydrocraker)
-- 'NO'
 PLANT1-UNIT145-GROUNDWATERREMEDIATION/WELLS;PLANT1-SURGEBASIN/SUMP;IRONSCUM;PLANT1-VACPAD:
 - 
 - 
@@ -29197,32 +35463,6 @@ PLANT2-UNIT210-#2OMDTANKFARM;PLANT2-CRUDEDOCKSSUMP;WATER;PLANT2-LOWERAPI:
 - '1137.67'
 - T-101 Underground Storage Tank Oil
 - 'NO'
-PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-OLDAPIS;OILYWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '50'
-- '2100'
-- '>90%'
-- 99.9%
-- '1'
-- <0.01
-- Stripped Sour Water
-- 'YES'
-- '7935'
-- <0.01
-- 0%
-- '0.85'
-- '4495.34'
-- Stripped Sour Water Oil
-- 'NO'
 PLANT2-UNIT210-#2OMDTANKFARM;PLANT2-PIPELINEFLUSH;DIESELANDOIL;PLANT2-TANK20:
 - 
 - 
@@ -30054,32 +36294,6 @@ PLANT2-UNIT310-LPG&CRUDELOADING;PLANT2-CRUDEDOCKS;OILYWATER;PLANT1-VACPAD:
 - '0.81'
 - '1137.67'
 - T-101 Underground Storage Tank Oil
-- 'NO'
-PLANT1-SPILLS;PLANT1-CRUDEUNLOADINGSUMP;OILYWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '10'
-- '420'
-- 70-90%
-- 90.0%
-- '1'
-- '24'
-- Crude
-- 'NO'
-- '1430'
-- '0.03'
-- 10%
-- '0.79'
-- '2400'
-- Crude
 - 'NO'
 PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-CENTRIFUGEGOODOILFRACTANK;OIL;PLANT1-CENTRIFUGESTORAGEFRACTANKS:
 - 
@@ -30991,32 +37205,6 @@ METRO;METRO-EASTANDWESTOFTHEDITCH;OILYWATER;PLANT1-VACPAD:
 - '9614.44'
 - Remediation Oil
 - 'YES'
-PLANT1-UNIT145-GROUNDWATERREMEDIATION/WELLS;GWTSTANK10;OILYWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'YES'
-- VAC PAD
-- 'NO'
-- 'NO'
-- '11'
-- '462'
-- '>90%'
-- 90.0%
-- '1'
-- '2.17'
-- All Groundwater
-- 'YES'
-- '1573'
-- <0.01
-- 10%
-- '0.77'
-- '9614.44'
-- Remediation Oil
-- 'YES'
 PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-CRUDEUNLOADINGLINE;OIL;PLANT1-TANK58:
 - 
 - 
@@ -31719,32 +37907,6 @@ PLANT1-UNIT045-WASTEWATERPLANT(WWTP);DRIBBLETANKLINE;OILYWATER;PLANT1-VACPAD:
 - '1636.67'
 - TK-4516 Slop Oil Tank
 - 'YES'
-PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK4516-CONTAINMENT;WATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '10'
-- '420'
-- 99%
-- 99.0%
-- '1'
-- <0.01
-- Stormwater
-- 'NO'
-- '1573'
-- <0.01
-- 1%
-- '0.85'
-- '0.03'
-- Stormwater
-- 'NO'
 PLANT2-UNIT310-LPG&CRUDELOADING;PLANT2-METERPROVING;DIESEL;PLANT2-TANK20:
 - 
 - 
@@ -32317,32 +38479,6 @@ PLANT1-HEAVYOILPORTABLECOMPRESSORS;PLANT1-HEAVYOILFUELCELL;DIESEL;PLANT2-TANK20:
 - '2'
 - Diesel
 - 'NO'
-PLANT2-STORMWATER;PLANT2-STORMWATER;STORMWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '550'
-- '23,100'
-- 99%
-- 99.0%
-- '1'
-- <0.01
-- Stormwater
-- 'NO'
-- '86,498'
-- <0.01
-- 1%
-- '0.85'
-- '0.03'
-- Stormwater
-- 'NO'
 PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-OLDAPIS;SOLIDS;PLANT1-CENTRIFUGEFRACTANKS:
 - 
 - 
@@ -32603,32 +38739,6 @@ PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-TANK778-STORMWATER;STORMWATER;PLANT1-4THLAGO
 - '0.03'
 - Stormwater
 - 'NO'
-PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-TANK2-SUMP;OILYWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'YES'
-- VAC PAD
-- 'NO'
-- 'NO'
-- '5'
-- '210'
-- 99%
-- 95.5%
-- '1'
-- '4'
-- Distillate
-- 'NO'
-- '759'
-- <0.01
-- 5%
-- '0.84'
-- '400'
-- Distillate
-- 'NO'
 PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-TANK778-STROMWATER;STORMWATER;PLANT1-VACPAD:
 - 
 - 
@@ -32863,32 +38973,6 @@ PLANT2-UNIT004-#2REFORMER/NDS/ARU;PLANT2-JOHNSONSRESERVOIR;STORMWATER;PLANT1-VAC
 - '0.03'
 - Stormwater
 - 'NO'
-PLANT1-STORMWATER;PLANT1-SEWERBYOMD1;STORMWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '25'
-- '1,050'
-- 99%
-- 99.0%
-- '1'
-- <0.01
-- Stormwater
-- 'NO'
-- '3,932'
-- <0.01
-- 1%
-- '0.85'
-- '0.03'
-- Stormwater
-- 'NO'
 PLANT1-NORTHOFTHEFENCELINE;PLANT1-NORTHOFTHEFENCELINE;OTHER;PLANT1-VACPAD:
 - 
 - 
@@ -33071,32 +39155,6 @@ PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANKSSECONDARYCONTAINMENTSENVIRONMEN
 - '0.03'
 - Stormwater
 - 'NO'
-METRO;RECOVERYSYSTEMS;OILYWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '20'
-- '840'
-- 99%
-- 99.0%
-- '1'
-- '1.88'
-- All Groundwater
-- 'NO'
-- '3,145'
-- <0.01
-- 1%
-- '0.79'
-- '8,540'
-- Remediation Oil
-- 'YES'
 PLANT1-STORMWATER;PLANT1-3RDLAGOON;OILYSTORMWATER;PLANT1-VACPAD:
 - 
 - 
@@ -33435,32 +39493,6 @@ PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-CENTRIFUGECONCRETEPADWASHOUT;OILYWAT
 - '510'
 - TK-4516 Slop Oil Tank
 - 'YES'
-PLANT2-UNIT210-#2OMDTANKFARM;PLANT2-LPGETHANOLDRUMS;ETHANOL;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '2'
-- '84'
-- <10%
-- 10.0%
-- '1'
-- -0-
-- Ethanol
-- 'NO'
-- '32'
-- -0-
-- 90%
-- '0.79'
-- -0-
-- Ethanol
-- 'NO'
 PLANT1-BRIGHTONRD.;PLANT1-MANHOLES;STORMWATER;PLANT1-VACPAD:
 - 
 - 
@@ -33669,32 +39701,6 @@ PLANT1-NORTHOFTHEFENCELINE;RECOVERYSYSTEMS;OILYWATER;PLANT1-VACPAD:
 - '8,540'
 - Remediation Oil
 - 'YES'
-PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-3RDLAGOON;OILYWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '60'
-- '2,520'
-- 99%
-- 99.0%
-- '1'
-- <0.01
-- Fourth Lagoon
-- 'NO'
-- '9,436'
-- <0.01
-- 1%
-- '0.85'
-- '1.21'
-- Fourth Lagoon
-- 'NO'
 PLANT1-STORMWATER;PLANT1-STORMWATER;STORMWATER;PLANT1-VACPAD:
 - 
 - 
@@ -34605,32 +40611,6 @@ PLANT3-WASHPAD;PLANT3-WASHPADFRACTANK;OILYWATER;PLANT1-VACPAD:
 - '0.03'
 - Stormwater
 - 'NO'
-PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK4516-CONTAINMENT;SLUDGE;PLANT1-CENTRIFUGEFRACTANKS:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- TO
-- 'NO'
-- 'YES'
-- '60'
-- '2,520'
-- <10%
-- 10.0%
-- '1'
-- <0.01
-- Stormwater
-- 'NO'
-- '953'
-- <0.01
-- 90%
-- '0.85'
-- '0.03'
-- Stormwater
-- 'NO'
 PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-CENTRIFUGECONCRETEPADANDSKIDRINSEDOWN.;OILYWATER;PLANT1-VACPAD:
 - 
 - 
@@ -34839,32 +40819,6 @@ PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-SURGEBASIN;OILYWATER;PLANT1-VACPAD:
 - '42'
 - Sludge
 - 'NO'
-PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-FRACTANKS-TANK4516-CENTRIFUGE;OILYWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'YES'
-- VAC PAD
-- 'NO'
-- 'NO'
-- '15'
-- '630'
-- 99%
-- 99.0%
-- '1'
-- '10.5'
-- TK-4516 Slop Oil Tank Aqueous
-- 'NO'
-- '2,359'
-- '0.02'
-- 1%
-- '0.92'
-- '510'
-- TK-4516 Slop Oil Tank
-- 'YES'
 PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-TANK34;OILYWATER;PLANT1-VACPAD:
 - 
 - 
@@ -35046,32 +41000,6 @@ PLANT1-UNIT008-#1OMDTANKFARM;PLANT1-DRUMD-189MATERIAL;DIESEL;PLANT1-TANK58FRACTA
 - '0.86'
 - '2'
 - Diesel
-- 'NO'
-PLANT1-UNIT035-FLUIDCATALYTICCRACKER;PLANT1-SEWER;OILYWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '20'
-- '840'
-- '>90%'
-- 99.0%
-- '1'
-- <0.01
-- Stormwater
-- 'NO'
-- '3,145'
-- <0.01
-- 1%
-- '0.85'
-- '0.03'
-- Stormwater
 - 'NO'
 PLANT1-NORTHOFTHEFENCELINE;MONITORSWELLS;OILYWATER;PLANT1-VACPAD:
 - 
@@ -35333,58 +41261,6 @@ PLANT2-UNIT410-#2OMDLOADINGRACKS;PLANT2-BAY1LINEDRAIN[1/2BBL];DIESEL;PLANT1-VACP
 - '2'
 - Diesel
 - 'NO'
-PLANT2-UNIT410-#2OMDLOADINGRACKS;PLANT2-CRUDEDOCKSSUMP;OILYWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '8'
-- '336'
-- '>90%'
-- 99.0%
-- '1'
-- '24'
-- Crude
-- 'NO'
-- '1,258'
-- '0.03'
-- 1%
-- '0.79'
-- '2,400'
-- Crude
-- 'NO'
-PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-CONCRETEPADANDSKIDATCENTRIFUGE;OILYWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'NO'
-- VAC PAD
-- 'NO'
-- 'YES'
-- '8'
-- '336'
-- 99%
-- 99.0%
-- '1'
-- '10.5'
-- TK-4516 Slop Oil Tank Aqueous
-- 'NO'
-- '1,258'
-- '0.01'
-- 1%
-- '0.92'
-- '510'
-- TK-4516 Slop Oil Tank
-- 'YES'
 METRO;RECOVERYSYSTEMS;OILYWATER;PLANT2-FRACTANKS:
 - 
 - 
@@ -35723,32 +41599,6 @@ PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-CONCRETEANDSKIDRINSEDOWNATTHECENTRIF
 - '510'
 - TK-4516 Slop Oil Tank
 - 'YES'
-PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-TANK4508-DGF;SLUDGE;PLANT1-CENTRIFUGEFRACTANKS:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'YES'
-- TO
-- 'NO'
-- 'NO'
-- '50'
-- '2,100'
-- <10%
-- 10.0%
-- ''
-- '2.72'
-- TK-4507 Waste Water Tank
-- 'YES'
-- '#VALUE!'
-- '#VALUE!'
-- 90%
-- '0.85'
-- '512.5'
-- TK-4507 Waste Water Tank
-- 'NO'
 PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-OLDAPISDISTRIBUTIONBAY-A;WATER;PLANT1-VACPAD:
 - 
 - 
@@ -36243,32 +42093,6 @@ PLANT2-BOILERAGGREKOFUELCELL;PLANT2-FUELCELL;DIESEL;PLANT2-TANK20:
 - '2'
 - Diesel
 - 'NO'
-PLANT2-UNIT210-#2OMDTANKFARM;PLANT2-TANK29;OILYWATER;PLANT1-VACPAD:
-- 
-- 
-- 
-- 
-- 
-- 
-- 'YES'
-- VAC PAD
-- 'NO'
-- 'NO'
-- '10'
-- '420'
-- 99%
-- 99.0%
-- ''
-- '0.6'
-- Tank 29 Aqueous
-- 'YES'
-- '#VALUE!'
-- '#VALUE!'
-- 1%
-- '1'
-- ''
-- Tank 29 Oil
-- 'YES'
 PLANT1-UNIT045-WASTEWATERPLANT(WWTP);PLANT1-GOODOILTANKCENTRIFUGE;OIL;PLANT1-CENTRIFUGEFRACTANKS:
 - 
 - 
