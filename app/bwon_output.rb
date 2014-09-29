@@ -78,7 +78,7 @@ class BWONOutput
   end
 
   def key_exists?
-    !!RULE_BOOK[lookup_key(current_row)]
+    !RULE_BOOK[lookup_key(current_row)].nil?
   end
 
   def calculate_u_percentage(value)

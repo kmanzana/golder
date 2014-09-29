@@ -1,7 +1,3 @@
-# recipes.sinatrarb.com
-# http://www.sinatrarb.com/intro.html#Configuration
-# security: http://stackoverflow.com/questions/8144186/what-are-the-best-practices-to-secure-a-sinatra-application # rubocop:disable LineLength
-
 require 'bundler/setup'
 Bundler.require :default, ENV['RACK_ENV'].to_sym
 
@@ -9,7 +5,6 @@ require 'sinatra/flash'
 require './app/helpers'
 require './lib/lookup_key_generator'
 require './app/bwon_output'
-# require './app/routes/init' # may need to load these instead of require http://sinatra.restafari.org/book.html#splitting_into_multiple_files # rubocop:disable LineLength
 
 configure do
   config_file 'config/all.yml'

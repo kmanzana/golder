@@ -8,6 +8,9 @@ Waffle.io progress [![waffle.io badge](https://badge.waffle.io/kmanzana/golder.p
 
 Code quality       [![Code Climate](https://codeclimate.com/github/kmanzana/golder.png)](https://codeclimate.com/github/kmanzana/golder)
 
+Build status
+[ ![Codeship Status for kmanzana/golder](https://www.codeship.io/projects/1f05eca0-264f-0132-ad78-0a10f24a2600/status)](https://www.codeship.io/projects/37430)
+
 Notes:
 - When saving Excel files as CSV files, use MS-DOS, regular Comma Separated Value file formats (with `encoding: 'windows-1251:utf-8'`), not Macintosh
 

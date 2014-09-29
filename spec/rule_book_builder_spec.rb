@@ -1,4 +1,3 @@
-# rubocop:disable Void
 require 'spec_helper'
 
 describe 'RuleBookBuilder' do
