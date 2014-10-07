@@ -1,0 +1,4 @@
+Keys,,,,Lookup Values,,,,,,,
+Unit (C), Vacuum Truck Movement Description (D), Vacuum Truck Material Description (E), Off-Load Site/Waste Destination (F),"Controlled (YES/NO) (G)",H,I,N,Q,R,X,Y
+THREE,FOUR,FIVE,SIX,yes,2,3,99.0%,T-101 Underground Storage Tank Aqueous,YES,T-101 Underground Storage Tank Oil,NO
+,,,,yes,2,3,10.0%,"All Groundwater",YES,"Remediation Oil",YES

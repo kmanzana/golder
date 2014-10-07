@@ -45,6 +45,12 @@ get '/upload' do
   redirect '/'
 end
 
+get '/discrepancies' do
+  content_type 'application/octet-stream'
+  attachment "discrepancies-#{Time.now.strftime '%Y-%m-%d'}.csv"
+  File.open './lib/resources/discrepancies.csv'
+end
+
 not_found do
   halt 404, 'page not found'
 end
