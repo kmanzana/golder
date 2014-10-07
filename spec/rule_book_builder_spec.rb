@@ -28,7 +28,7 @@ describe 'RuleBookBuilder' do
 
     before { builder.build }
 
-    it 'produce the rule book correctly' do
+    it 'produces the rule book correctly' do
       actual_output.should == expected_output
     end
   end

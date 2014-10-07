@@ -6,8 +6,8 @@ task :rule_book do
 
   RuleBookBuilder.new(
     input_filenames: Dir.glob('./lib/resources/reference_files/*\.csv'),
-    output_filename: './lib/resources/bwon_rule_book.yml')
-  .build
+    output_filename: './lib/resources/bwon_rule_book.yml'
+  ).build
 end
 
 task :discrepancies do
@@ -16,6 +16,6 @@ task :discrepancies do
 
   Discrepancies.new(
     input_filenames: Dir.glob('./lib/resources/reference_files/*\.csv'),
-    output_filename: './lib/resources/discrepancies.csv')
-  .build
+    output_filename: './lib/resources/discrepancies.csv'
+  ).build
 end
