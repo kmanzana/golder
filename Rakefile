@@ -16,6 +16,6 @@ task :discrepancies do
 
   Discrepancies.new(
     input_filenames: Dir.glob('./lib/resources/reference_files/*\.csv'),
-    output_filename: './lib/resources/discrepancies.yml')
+    output_filename: './lib/resources/discrepancies.csv')
   .build
 end

@@ -7,12 +7,14 @@ class Discrepancies
   def initialize(input_filenames: nil, output_filename: nil)
     @input_filenames = input_filenames
     @output_filename = output_filename
-    @descrepancies   = {}
+    @discrepancies   = {}
+    @formatted_discrepancies = []
   end
 
   def build
-    File.open(output_filename, 'w+') do |file|
-      file << rule_book_hash.to_yaml
+    CSV.open(output_filename, 'wb') do |csv|
+      csv << ('C'..'F').to_a + LOOKUP_COLUMNS_ARRAY
+      discrepancies_array.each { |line| csv << line }
     end
   end
 
@@ -20,24 +22,34 @@ class Discrepancies
 
   attr_reader :input_filenames, :output_filename
 
-  def rule_book_hash
-    each_row_with_object({}) do |row, rule_book|
+  def discrepancies_array
+    each_row_with_object({}) do |row, discrepancies|
       next unless data?(row)
 
       new_data = extract_relevant_data(row)
 
-      if @descrepancies[lookup_key(row)]
-        unless @descrepancies[lookup_key(row)].include?(new_data)
-          @descrepancies[lookup_key(row)] << new_data
+      if @discrepancies[lookup_key(row)]
+        unless @discrepancies[lookup_key(row)].include?(new_data)
+          @discrepancies[lookup_key(row)] << new_data
         end
       else
-        @descrepancies[lookup_key(row)] = [new_data]
+        @discrepancies[lookup_key(row)] = [new_data]
       end
     end
 
-    @descrepancies.each do |key, value|
-      @descrepancies.delete(key) if value.length == 1
+    @discrepancies.delete_if { |key, value| value.length == 1 }
+
+    @discrepancies.each do |lookup, data_values|
+      lookup_cols = lookup.split ';'
+      first_rule = lookup_cols + data_values.shift
+
+      rules = data_values.map { |rule|  [nil, nil, nil, nil].push *rule }
+      rules.unshift first_rule
+
+      @formatted_discrepancies += rules
     end
+
+    @formatted_discrepancies
   end
 
   def each_row_with_object(object)

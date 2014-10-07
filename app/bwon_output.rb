@@ -4,8 +4,8 @@ require 'yaml'
 class BWONOutput
   include LookupKeyGenerator
 
-  ASSOCIATIONS   = YAML.load_file('./lib/resources/associations.yml')
-  RULE_BOOK      = YAML.load_file('./lib/resources/bwon_rule_book.yml')
+  ASSOCIATIONS = YAML.load_file('./lib/resources/associations.yml')
+  RULE_BOOK    = YAML.load_file('./lib/resources/bwon_rule_book.yml')
 
   def initialize(raw_data_file)
     @raw_data_file = raw_data_file
