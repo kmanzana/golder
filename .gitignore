@@ -23,3 +23,5 @@ doc/
 *.sass-cache
 
 .~lock.*
+
+.c9/
